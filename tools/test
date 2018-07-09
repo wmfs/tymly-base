@@ -9,7 +9,7 @@ docker-compose up &
 
 sleep 90
 
-tymly_up=$(docker logs tymlydev_tymly_1 2>&1 | grep "Admin token")
+tymly_up=$(docker logs tymlybase_tymly_1 2>&1 | grep "Admin token")
 
 
 # Check Tymly
