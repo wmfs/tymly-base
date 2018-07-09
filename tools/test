@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+docker-compose version
+
+# Start Tymly Docker
+echo "Lets test Tymly"
+
+docker-compose up &
+
+sleep 90
+
+tymly_up=$(docker logs tymlydev_tymly_1 2>&1 | grep "Admin token")
+
+
+# Check Tymly
+echo "Check if Tymly is running, let us know if something isn't working"
+
+if ! [ "$tymly_up" ]; then
+    echo "Tymly is not running"
+fi
+
+if [ "$tymly_up" ]; then
+    echo "Tymly is running"
+fi
+
+# Stop Tymly
+echo "Take down the containers"
+
+docker-compose down
+
+if ! [ "$tymly_up" ] ; then
+   exit 1
+fi
