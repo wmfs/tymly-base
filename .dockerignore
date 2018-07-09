@@ -1,0 +1,15 @@
+.git
+.gitignore
+README.md
+.DS_Store
+.AppleDouble
+.LSOverride
+logs
+*.log
+package-lock.json
+# CI
+.travis.yml
+docker-compose.yml
+*.sh
+CHANGELOG.md
+
