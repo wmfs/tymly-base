@@ -1,0 +1,82 @@
+{
+  "name": "@wmfs/tymly-base",
+  "version": "0.0.0-semantically-released",
+  "decsription": "WMFS Tymly development build",
+  "keywords": [
+    "tymly",
+    "build",
+    "base"
+  ],
+  "homepage": "https://github.com/wmfs/tymly-base#readme",
+  "bugs": {
+    "url": "https://github.com/wmfs/tymly-base/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmfs/tymly-base.git"
+  },
+  "license": "MIT",
+  "author": "West Midlands Fire Service",
+  "dependencies": {
+    "@wmfs/tymly-auth-auth0-plugin": "1.0.5",
+    "@wmfs/tymly-diaries-plugin": "1.0.11",
+    "@wmfs/tymly-etl-plugin": "1.7.0",
+    "@wmfs/tymly-express-plugin": "1.0.27",
+    "@wmfs/tymly-gov-uk-notify-plugin": "1.0.3",
+    "@wmfs/tymly-pg-plugin": "1.9.0",
+    "@wmfs/tymly-rankings-plugin": "1.1.13",
+    "@wmfs/tymly-runner": "2.5.1",
+    "@wmfs/tymly-solr-plugin": "1.0.12",
+    "@wmfs/tymly-users-plugin": "1.1.10"
+  },
+  "devDependencies": {
+    "conventional-changelog-metahub": "2.0.2",
+    "cz-conventional-changelog": "2.1.0",
+    "semantic-release": "15.6.3",
+    "@semantic-release/changelog": "2.1.1",
+    "@semantic-release/git": "6.0.1"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "analyzeCommits": {
+      "preset": "angular",
+      "releaseRules": [
+        {
+          "type": "build",
+          "scope": "deps",
+          "release": "minor"
+        }
+      ]
+    },
+    "generateNotes": {
+      "preset": "metahub"
+    },
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      {
+        "path": "@semantic-release/changelog",
+        "changelogFile": "CHANGELOG.md"
+      },
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "CHANGELOG.md"
+        ]
+      }
+    ]
+  }
+}
+
