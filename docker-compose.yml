@@ -1,0 +1,25 @@
+version: '2.1'
+
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=tymly
+    ports:
+      - "4000:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  tymly:
+    image: tymly-base
+    environment:
+      - DEBUG=*
+      - PG_CONNECTION_STRING=postgres://postgres:postgres@db:5432/tymly
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "3210:3000"
