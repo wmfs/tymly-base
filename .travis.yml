@@ -26,6 +26,11 @@ script:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: npx semantic-release && docker tag tymly-base wmfs/tymly-base && docker tag tymly-base wmfs/tymly-base:$TAG && docker push wmfs/tymly-base && docker push wmfs/tymly-base:$TAG
+    script: npx semantic-release
     on:
       branch: master
+  - provider: script
+    skip_cleanup: true
+    script: docker tag tymly-base wmfs/tymly-base && docker tag tymly-base wmfs/tymly-base:$TAG && docker push wmfs/tymly-base && docker push wmfs/tymly-base:$TAG
+    on:
+      tags: true
