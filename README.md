@@ -1,5 +1,7 @@
 ## Tymly-base
 
+![Tymly](https://tymly.io/wp-content/uploads/2017/11/logo-tymly-main-colour-300x79.png)
+
 ### What?
 
 This repo builds a runnable Docker image of Tymly from the core Tymly and associated plugin packages.
