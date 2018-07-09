@@ -7,6 +7,10 @@
       "secret": "ssh",
       "audience": "aud"
     },
+    "admin": {
+      "userId": "admin",
+      "roles": "ordnanceSurvey_ordnanceSurveyAdmin,wmfs_addressboxAdmin"
+    },
     "pgConnectionString": "postgres://postgres:postgres@postgres_host:5432/tymly",
     "email": {
       "from": "Tymly!",
