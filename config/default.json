@@ -1,0 +1,24 @@
+{
+  "blueprintPaths": "/node_modules/@wmfs/*-blueprint",
+  "pluginPaths": "/node_modules/@wmfs/*-plugin",
+  "config": {
+    "serverPort": "3000",
+    "auth": {
+      "secret": "ssh",
+      "audience": "aud"
+    },
+    "pgConnectionString": "postgres://postgres:postgres@postgres_host:5432/tymly",
+    "email": {
+      "from": "Tymly!",
+      "transport": {
+        "host": "email_host",
+        "port": 22
+      }
+    },
+    "solr": {
+      "host": "localhost",
+      "port": 8983,
+      "path": "/solr"
+    }
+  }
+}
