@@ -4,9 +4,9 @@
 
 ### What?
 
-This repo builds a runnable Docker image of Tymly from the core Tymly and associated plugin packages.
+This repo builds a runnable Docker image of Tymly from [Tymly core](https://github.com/wmfs/tymly-core#tymly) and associated [plugins](https://github.com/search?q=topic%3Aplugin+org%3Awmfs+fork%3Atrue).
 
-It contains the following:
+It contains the following packages:
 
 * [@wmfs/tymly-auth-auth0-plugin](https://github.com/wmfs/tymly-auth-auth0-plugin#tymly-auth-auth0-plugin)
 * [@wmfs/tymly-diaries-plugin](https://github.com/wmfs/tymly-diaries-plugin#tymly-diaries-plugin)
