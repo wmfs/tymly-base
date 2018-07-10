@@ -7,9 +7,6 @@ services:
   - docker
 sudo: false
 dist: trusty
-env:
-  global:
-    - TAG=${TRAVIS_TAG}
 before_script:
   - echo 'Europe/London' | sudo tee /etc/timezone
   - sudo dpkg-reconfigure --frontend noninteractive tzdata
