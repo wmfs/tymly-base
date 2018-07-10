@@ -14,3 +14,4 @@ docker-compose.yml
 CHANGELOG.md
 tools/
 LICENSE
+node_modules
