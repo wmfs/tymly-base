@@ -76,6 +76,14 @@
           "CHANGELOG.md"
         ]
       }
+    ],
+    "publish": [
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/exec",
+        "cmd": "docker tag tymly-base wmfs/tymly-base && docker tag tymly-base wmfs/tymly-base:${nextRelease.version} && docker push wmfs/tymly-base && docker push wmfs/tymly-base:${nextRelease.version}"
+      },
+      "@semantic-release/github"
     ]
   }
 }
