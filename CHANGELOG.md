@@ -1,3 +1,24 @@
+## [1.1.3](https://github.com/wmfs/tymly-base/compare/v1.1.2...v1.1.3) (2018-07-10)
+
+
+### 🐛 Bug Fixes
+
+* allow package.json into Docker image ([2e8efc2](https://github.com/wmfs/tymly-base/commit/2e8efc2))
+* install only production dependancies in Docker image ([977989a](https://github.com/wmfs/tymly-base/commit/977989a))
+* need the config files ([214a39a](https://github.com/wmfs/tymly-base/commit/214a39a))
+
+
+### 📚 Documentation
+
+* add license ([b374d94](https://github.com/wmfs/tymly-base/commit/b374d94))
+* update readme ([a6b67c6](https://github.com/wmfs/tymly-base/commit/a6b67c6))
+
+
+### ⚙️ Continuous Integrations
+
+* remove env for tagging ([c25da31](https://github.com/wmfs/tymly-base/commit/c25da31))
+* update .dockerignore contents ([3449506](https://github.com/wmfs/tymly-base/commit/3449506))
+
 ## [1.1.2](https://github.com/wmfs/tymly-base/compare/v1.1.1...v1.1.2) (2018-07-10)
 
 
