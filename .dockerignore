@@ -12,6 +12,5 @@ package-lock.json
 docker-compose.yml
 *.sh
 CHANGELOG.md
-package.json
 tools/
 LICENSE
