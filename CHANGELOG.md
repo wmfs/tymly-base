@@ -1,3 +1,23 @@
+## [1.1.2](https://github.com/wmfs/tymly-base/compare/v1.1.1...v1.1.2) (2018-07-10)
+
+
+### 🐛 Bug Fixes
+
+* Need to publish to Docker Hub ([63b276f](https://github.com/wmfs/tymly-base/commit/63b276f))
+
+
+### 🛠 Builds
+
+* actually add the exec package ([73e67cc](https://github.com/wmfs/tymly-base/commit/73e67cc))
+
+
+### ⚙️ Continuous Integrations
+
+* update semantic-release release message on tag to not skip CI ([1688ba4](https://github.com/wmfs/tymly-base/commit/1688ba4))
+* **.travis.yml:** remove on tag deploy things ([a9184ef](https://github.com/wmfs/tymly-base/commit/a9184ef))
+* **package:** add semantic-release/exec config ([2b503fe](https://github.com/wmfs/tymly-base/commit/2b503fe))
+* **package:** remove custom commit message of changelog ([0856345](https://github.com/wmfs/tymly-base/commit/0856345))
+
 ## [1.1.1](https://github.com/wmfs/tymly-base/compare/v1.1.0...v1.1.1) (2018-07-09)
 
 
