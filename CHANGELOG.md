@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/wmfs/tymly-base/compare/v1.1.3...v1.1.4) (2018-07-10)
+
+
+### 🐛 Bug Fixes
+
+* exclude node_modules from CI in Docker image ([522f1db](https://github.com/wmfs/tymly-base/commit/522f1db))
+
 ## [1.1.3](https://github.com/wmfs/tymly-base/compare/v1.1.2...v1.1.3) (2018-07-10)
 
 
