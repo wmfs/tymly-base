@@ -1,4 +1,4 @@
-## Tymly-base
+# Tymly-base
 
 ![Tymly](https://tymly.io/wp-content/uploads/2017/11/logo-tymly-main-colour-300x79.png)
 
@@ -19,12 +19,12 @@ It contains the following packages:
 * [@wmfs/tymly-solr-plugin](https://github.com/wmfs/tymly-solr-plugin#tymly-solr-plugin)
 * [@wmfs/tymly-users-plugin](https://github.com/wmfs/tymly-users-plugin#tymly-users-plugin)
 
-
+---
 ### Garnish
 
 In order to add useful functionality to this base image you need to garnish this image with [blueprints](https://github.com/search?q=topic%3Ablueprint+org%3Awmfs+fork%3Atrue).
 
-
+---
 ### Pull
 
 This Docker image is free and available to pull from the [Docker Hub](https://hub.docker.com/r/wmfs/tymly-base).
@@ -33,6 +33,17 @@ This Docker image is free and available to pull from the [Docker Hub](https://hu
 docker pull wmfs/tymly-base
 ```
 
+---
+### Config
+
+Tymly requires configuration variables in order to boot.
+
+---
+### Docs
+
+More information on Tymly can be found on the [website](https://tymly.io).
+
+---
 ### License
 
 Tymly and it's components are licensed under the [MIT License](https://github.com/wmfs/tymly-base/blob/master/LICENSE).
