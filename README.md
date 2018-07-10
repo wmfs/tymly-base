@@ -22,7 +22,17 @@ It contains the following packages:
 
 ### Garnish
 
-In order to add useful functionality to this base image you need garnish this image with [blueprints](https://github.com/search?q=topic%3Ablueprint+org%3Awmfs+fork%3Atrue).
+In order to add useful functionality to this base image you need to garnish this image with [blueprints](https://github.com/search?q=topic%3Ablueprint+org%3Awmfs+fork%3Atrue).
 
 
+### Pull
 
+This Docker image is free and available to pull from the [Docker Hub](https://hub.docker.com/r/wmfs/tymly-base).
+
+```bash
+docker pull wmfs/tymly-base
+```
+
+### License
+
+Tymly and it's components are licensed under the [MIT License](https://github.com/wmfs/tymly-base/blob/master/LICENSE).
