@@ -2,6 +2,11 @@
 
 ![Tymly](https://tymly.io/wp-content/uploads/2017/11/logo-tymly-main-colour-300x79.png)
 
+[![Tymly build](https://img.shields.io/badge/Tymly-build-blue.svg)](https://tymly.io)
+[![Build Status](https://travis-ci.com/wmfs/tymly-base.svg?branch=master)](https://travis-ci.com/wmfs/tymly-base)
+[![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmfs/tymly-base/blob/master/LICENSE)
+
 ### What?
 
 This repo builds a runnable Docker image of Tymly from [Tymly core](https://github.com/wmfs/tymly-core#tymly) and associated [plugins](https://github.com/search?q=topic%3Aplugin+org%3Awmfs+fork%3Atrue).
@@ -49,13 +54,25 @@ npm install --production
 ensures that only production dependencies are installed in the image.
 
 ---
-### Pull
+### Versioning
+
+[Dependabot](https://dependabot.com/#how-it-works) keeps dependencies up to date.
+
+[semantic-release](https://github.com/semantic-release/semantic-release) handles the versioning of the image.  See [.releaserc.json](https://github.com/wmfs/tymly-base/blob/master/.releaserc.json) for semantic-release configuration.
+
+---
+### Docker
 
 This Docker image is free and available to pull from the [Docker Hub](https://hub.docker.com/r/wmfs/tymly-base).
 
 ```bash
 docker pull wmfs/tymly-base
 ```
+
+---
+### npm
+
+Tymly-base is also published to [npm](https://www.npmjs.com/) as a [package](https://www.npmjs.com/package/@wmfs/tymly-base)
 
 ---
 ### Config
