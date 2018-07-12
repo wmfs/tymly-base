@@ -7,6 +7,7 @@
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmfs/tymly-base/blob/master/LICENSE)
 
+---
 ### What?
 
 This repo builds a runnable Docker image of Tymly from [Tymly core](https://github.com/wmfs/tymly-core#tymly) and associated [plugins](https://github.com/search?q=topic%3Aplugin+org%3Awmfs+fork%3Atrue).
