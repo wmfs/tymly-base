@@ -20,9 +20,33 @@ It contains the following packages:
 * [@wmfs/tymly-users-plugin](https://github.com/wmfs/tymly-users-plugin#tymly-users-plugin)
 
 ---
-### Garnish
+### Build
 
-In order to add useful functionality to this base image you need to garnish this image with [blueprints](https://github.com/search?q=topic%3Ablueprint+org%3Awmfs+fork%3Atrue).
+The image is built with the [Dockerfile](https://github.com/wmfs/tymly-base/blob/master/Dockerfile)
+
+```dockerfile
+FROM node:9-alpine
+LABEL maintainer="West Midlands Fire Service <tymly@wmfs.net>"
+COPY . .
+RUN npm install --production
+CMD ["node", "./node_modules/@wmfs/tymly-runner/lib/index.js"]
+```
+
+Please see [.dockerignore](https://github.com/wmfs/tymly-base/blob/master/.dockerignore) to see what contents is exlucded from the Docker image.
+
+All that is copied from the repo into the image is:
+
+* config/
+* tools/
+* package.json
+
+The run command
+
+```bash
+npm install --production
+```
+
+ensures that only production dependencies are installed in the image.
 
 ---
 ### Pull
@@ -36,7 +60,15 @@ docker pull wmfs/tymly-base
 ---
 ### Config
 
-Tymly requires configuration variables in order to boot.
+Tymly requires [configuration](https://github.com/wmfs/tymly-base/tree/master/config) variables in order to boot.
+
+---
+### Garnish
+
+In order to add useful functionality to this base image you need to garnish this image with [blueprints](https://github.com/search?q=topic%3Ablueprint+org%3Awmfs+fork%3Atrue).
+
+
+Please follow [Dockerfile best practises](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) when creating an image based on Tymly-base.
 
 ---
 ### Docs
