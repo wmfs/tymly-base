@@ -1,0 +1,38 @@
+{
+  "branch": "master",
+  "analyzeCommits": {
+    "preset": "angular",
+    "releaseRules": [
+      {"type": "build", "scope":"deps", "release": "minor"}
+    ]
+  },
+  "verifyConditions": [
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ],
+  "generateNotes": {
+    "preset": "metahub"
+  },
+  "prepare": [
+    {
+      "path": "@semantic-release/changelog",
+      "changelogFile": "CHANGELOG.md"
+    },
+    {
+      "path": "@semantic-release/git",
+      "assets": ["CHANGELOG.md"]
+    },
+    "@semantic-release/npm"
+  ],
+  "publish": [
+    "@semantic-release/npm",
+    {
+      "path": "@semantic-release/exec",
+      "cmd": "docker tag tymly-base wmfs/tymly-base && docker tag tymly-base wmfs/tymly-base:${nextRelease.version} && docker push wmfs/tymly-base && docker push wmfs/tymly-base:${nextRelease.version}"
+    },
+    "@semantic-release/github"
+  ],
+  "success": ["@semantic-release/github"],
+  "fail": ["@semantic-release/github"]
+}
