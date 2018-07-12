@@ -60,6 +60,8 @@ ensures that only production dependencies are installed in the image.
 
 [semantic-release](https://github.com/semantic-release/semantic-release) handles the versioning of the image.  See [.releaserc.json](https://github.com/wmfs/tymly-base/blob/master/.releaserc.json) for semantic-release configuration.
 
+Please see the [releases page](https://github.com/wmfs/tymly-base/releases) or [changelog](https://github.com/wmfs/tymly-base/blob/master/CHANGELOG.md) for commit details.
+
 ---
 ### Docker
 
@@ -85,7 +87,7 @@ Tymly requires [configuration](https://github.com/wmfs/tymly-base/tree/master/co
 In order to add useful functionality to this base image you need to garnish this image with [blueprints](https://github.com/search?q=topic%3Ablueprint+org%3Awmfs+fork%3Atrue).
 
 
-Please follow [Dockerfile best practises](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) when creating an image based on Tymly-base.
+Please follow [Dockerfile best practises](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) when creating an image from Tymly-base.
 
 ---
 ### Docs
