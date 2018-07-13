@@ -23,7 +23,7 @@
     "@wmfs/tymly-etl-plugin": "1.7.0",
     "@wmfs/tymly-express-plugin": "1.0.27",
     "@wmfs/tymly-gov-uk-notify-plugin": "1.0.3",
-    "@wmfs/tymly-pg-plugin": "1.9.0",
+    "@wmfs/tymly-pg-plugin": "1.10.0",
     "@wmfs/tymly-rankings-plugin": "1.1.13",
     "@wmfs/tymly-runner": "2.6.0",
     "@wmfs/tymly-solr-plugin": "1.0.12",
