@@ -20,7 +20,7 @@
   "dependencies": {
     "@wmfs/tymly-auth-auth0-plugin": "1.0.5",
     "@wmfs/tymly-diaries-plugin": "1.0.11",
-    "@wmfs/tymly-etl-plugin": "1.7.0",
+    "@wmfs/tymly-etl-plugin": "1.8.0",
     "@wmfs/tymly-express-plugin": "1.0.27",
     "@wmfs/tymly-gov-uk-notify-plugin": "1.0.3",
     "@wmfs/tymly-pg-plugin": "1.9.0",
