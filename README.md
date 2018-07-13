@@ -3,6 +3,7 @@
 ![Tymly](https://tymly.io/wp-content/uploads/2017/11/logo-tymly-main-colour-300x79.png)
 
 [![Tymly build](https://img.shields.io/badge/Tymly-build-blue.svg)](https://tymly.io)
+[![npm (scoped)](https://img.shields.io/npm/v/@wmfs/tymly-base.svg)](https://www.npmjs.com/package/@wmfs/tymly-base)
 [![Build Status](https://travis-ci.com/wmfs/tymly-base.svg?branch=master)](https://travis-ci.com/wmfs/tymly-base)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmfs/tymly-base/blob/master/LICENSE)
