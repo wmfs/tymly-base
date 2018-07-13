@@ -1,3 +1,28 @@
+# [1.2.0](https://github.com/wmfs/tymly-base/compare/v1.1.4...v1.2.0) (2018-07-13)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-etl-plugin requirement to 1.8.0 ([07767af](https://github.com/wmfs/tymly-base/commit/07767af))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement to 1.10.0 ([0bd7fde](https://github.com/wmfs/tymly-base/commit/0bd7fde))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement to 2.7.0 ([13461c7](https://github.com/wmfs/tymly-base/commit/13461c7))
+* **deps-dev:** update semantic-release requirement to 15.7.0 ([c6dbde3](https://github.com/wmfs/tymly-base/commit/c6dbde3))
+* **deps-dev:** update semantic-release version ([829e377](https://github.com/wmfs/tymly-base/commit/829e377))
+
+
+### 📚 Documentation
+
+* readme formatting ([d16b460](https://github.com/wmfs/tymly-base/commit/d16b460))
+* update readme ([771c0e2](https://github.com/wmfs/tymly-base/commit/771c0e2))
+* update readme ([ea16ffb](https://github.com/wmfs/tymly-base/commit/ea16ffb))
+* update readme ([d592943](https://github.com/wmfs/tymly-base/commit/d592943))
+* update README.md ([a4fde55](https://github.com/wmfs/tymly-base/commit/a4fde55))
+
+
+### ⚙️ Continuous Integrations
+
+* **semantic-release:** use releaserc config file ([ab9206b](https://github.com/wmfs/tymly-base/commit/ab9206b))
+
 ## [1.1.4](https://github.com/wmfs/tymly-base/compare/v1.1.3...v1.1.4) (2018-07-10)
 
 
