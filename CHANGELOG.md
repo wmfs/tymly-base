@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/wmfs/tymly-base/compare/v1.2.0...v1.3.0) (2018-07-15)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement to 2.8.0 ([f794e5b](https://github.com/wmfs/tymly-base/commit/f794e5b))
+
+
+### 📚 Documentation
+
+* add npm version badge ([2761a31](https://github.com/wmfs/tymly-base/commit/2761a31))
+
 # [1.2.0](https://github.com/wmfs/tymly-base/compare/v1.1.4...v1.2.0) (2018-07-13)
 
 
