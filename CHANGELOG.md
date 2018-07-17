@@ -1,3 +1,16 @@
+# [1.8.0](https://github.com/wmfs/tymly-base/compare/v1.7.0...v1.8.0) (2018-07-17)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-rankings-plugin requirement to 1.2.0 ([064cdeb](https://github.com/wmfs/tymly-base/commit/064cdeb))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement to 2.1.2 ([9262c3f](https://github.com/wmfs/tymly-base/commit/9262c3f))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement to 3.0.0 ([7a90d07](https://github.com/wmfs/tymly-base/commit/7a90d07))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/exec requirement to 2.3.0 ([d72fafa](https://github.com/wmfs/tymly-base/commit/d72fafa))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement to 6.0.2 ([81f36ed](https://github.com/wmfs/tymly-base/commit/81f36ed))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement to 7.0.0 ([7fca5db](https://github.com/wmfs/tymly-base/commit/7fca5db))
+* **deps-dev:** update semantic-release requirement to 15.8.0 ([8926569](https://github.com/wmfs/tymly-base/commit/8926569))
+
 # [1.7.0](https://github.com/wmfs/tymly-base/compare/v1.6.0...v1.7.0) (2018-07-16)
 
 
