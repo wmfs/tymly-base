@@ -39,7 +39,7 @@ RUN npm install --production
 CMD ["node", "./node_modules/@wmfs/tymly-runner/lib/index.js"]
 ```
 
-Please see [.dockerignore](https://github.com/wmfs/tymly-base/blob/master/.dockerignore) for repo contents exlucded from the Docker image.
+Please see [.dockerignore](https://github.com/wmfs/tymly-base/blob/master/.dockerignore) for repo contents excluded from the Docker image.
 
 All that is copied from the repo into the image is:
 
