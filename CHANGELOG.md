@@ -1,3 +1,12 @@
+# [1.10.0](https://github.com/wmfs/tymly-base/compare/v1.9.0...v1.10.0) (2018-07-19)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-etl-plugin requirement to 1.11.0 ([3b690b4](https://github.com/wmfs/tymly-base/commit/3b690b4))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement to 7.0.1 ([851e621](https://github.com/wmfs/tymly-base/commit/851e621))
+* **deps-dev:** update semantic-release requirement to 15.8.1 ([f221e3e](https://github.com/wmfs/tymly-base/commit/f221e3e))
+
 # [1.9.0](https://github.com/wmfs/tymly-base/compare/v1.8.0...v1.9.0) (2018-07-17)
 
 
