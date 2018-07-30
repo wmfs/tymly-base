@@ -25,7 +25,7 @@
     "@wmfs/tymly-gov-uk-notify-plugin": "1.0.3",
     "@wmfs/tymly-pg-plugin": "1.17.0",
     "@wmfs/tymly-rankings-plugin": "1.2.1",
-    "@wmfs/tymly-runner": "2.16.0",
+    "@wmfs/tymly-runner": "2.17.0",
     "@wmfs/tymly-solr-plugin": "1.0.12",
     "@wmfs/tymly-users-plugin": "1.1.10"
   },
