@@ -1,3 +1,15 @@
+# [1.30.0](https://github.com/wmfs/tymly-base/compare/v1.29.0...v1.30.0) (2018-08-01)
+
+
+### ✨ Features
+
+* **package:** upload plugin ([2b10252](https://github.com/wmfs/tymly-base/commit/2b10252))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update semantic-release requirement to 15.9.3 ([169ae43](https://github.com/wmfs/tymly-base/commit/169ae43))
+
 # [1.29.0](https://github.com/wmfs/tymly-base/compare/v1.28.0...v1.29.0) (2018-07-30)
 
 
