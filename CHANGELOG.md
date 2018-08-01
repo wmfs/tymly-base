@@ -1,3 +1,15 @@
+# [1.31.0](https://github.com/wmfs/tymly-base/compare/v1.30.0...v1.31.0) (2018-08-01)
+
+
+### ✨ Features
+
+* **dockerfile:** create upload dir ([8727a92](https://github.com/wmfs/tymly-base/commit/8727a92))
+
+
+### 🐛 Bug Fixes
+
+* **docker:** revert previous run command ([e95b77a](https://github.com/wmfs/tymly-base/commit/e95b77a))
+
 # [1.30.0](https://github.com/wmfs/tymly-base/compare/v1.29.0...v1.30.0) (2018-08-01)
 
 
