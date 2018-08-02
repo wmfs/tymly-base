@@ -1,3 +1,10 @@
+# [1.32.0](https://github.com/wmfs/tymly-base/compare/v1.31.0...v1.32.0) (2018-08-02)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-upload-plugin requirement to 1.1.0 ([c72c0f2](https://github.com/wmfs/tymly-base/commit/c72c0f2))
+
 # [1.31.0](https://github.com/wmfs/tymly-base/compare/v1.30.0...v1.31.0) (2018-08-01)
 
 
