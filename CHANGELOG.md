@@ -1,3 +1,10 @@
+# [1.35.0](https://github.com/wmfs/tymly-base/compare/v1.34.0...v1.35.0) (2018-08-06)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-gov-uk-notify-plugin requirement from 1.1.0 to 1.1.1 ([671b13f](https://github.com/wmfs/tymly-base/commit/671b13f))
+
 # [1.34.0](https://github.com/wmfs/tymly-base/compare/v1.33.0...v1.34.0) (2018-08-06)
 
 
