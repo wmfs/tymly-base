@@ -1,3 +1,12 @@
+# [1.38.0](https://github.com/wmfs/tymly-base/compare/v1.37.0...v1.38.0) (2018-08-08)
+
+
+### 🛠 Builds
+
+* **deps:** revert [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement back to 1.17.0 ([69edffb](https://github.com/wmfs/tymly-base/commit/69edffb))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement from 1.17.0 to 1.22.0 ([1a26be4](https://github.com/wmfs/tymly-base/commit/1a26be4))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-rankings-plugin requirement from 1.2.1 to 1.2.2 ([01a2ac7](https://github.com/wmfs/tymly-base/commit/01a2ac7))
+
 # [1.37.0](https://github.com/wmfs/tymly-base/compare/v1.36.0...v1.37.0) (2018-08-06)
 
 
