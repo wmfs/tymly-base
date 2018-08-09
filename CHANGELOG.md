@@ -1,3 +1,10 @@
+# [1.43.0](https://github.com/wmfs/tymly-base/compare/v1.42.0...v1.43.0) (2018-08-09)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-solr-plugin requirement from 1.0.12 to 1.0.13 ([4c28074](https://github.com/wmfs/tymly-base/commit/4c28074))
+
 # [1.42.0](https://github.com/wmfs/tymly-base/compare/v1.41.0...v1.42.0) (2018-08-09)
 
 
