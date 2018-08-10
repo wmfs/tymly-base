@@ -1,3 +1,12 @@
+# [1.45.0](https://github.com/wmfs/tymly-base/compare/v1.44.0...v1.45.0) (2018-08-10)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-auth-auth0-plugin requirement from 1.0.5 to 1.1.0 ([c008785](https://github.com/wmfs/tymly-base/commit/c008785))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-express-plugin requirement from 1.2.1 to 1.3.0 ([a1d3407](https://github.com/wmfs/tymly-base/commit/a1d3407))
+* **deps-dev:** update semantic-release requirement from 15.9.6 to 15.9.7 ([05d32dc](https://github.com/wmfs/tymly-base/commit/05d32dc))
+
 # [1.44.0](https://github.com/wmfs/tymly-base/compare/v1.43.0...v1.44.0) (2018-08-10)
 
 
