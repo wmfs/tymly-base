@@ -1,3 +1,12 @@
+# [1.51.0](https://github.com/wmfs/tymly-base/compare/v1.50.0...v1.51.0) (2018-08-21)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-diaries-plugin requirement from 1.0.14 to 1.0.15 ([d0db577](https://github.com/wmfs/tymly-base/commit/d0db577))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/exec requirement from 3.0.2 to 3.1.0 ([03327fc](https://github.com/wmfs/tymly-base/commit/03327fc))
+* **deps-dev:** update semantic-release requirement from 15.9.8 to 15.9.9 ([b34c2b0](https://github.com/wmfs/tymly-base/commit/b34c2b0))
+
 # [1.50.0](https://github.com/wmfs/tymly-base/compare/v1.49.0...v1.50.0) (2018-08-14)
 
 
