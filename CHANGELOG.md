@@ -1,3 +1,10 @@
+# [1.56.0](https://github.com/wmfs/tymly-base/compare/v1.55.0...v1.56.0) (2018-08-23)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-users-plugin requirement from 1.1.10 to 1.1.11 ([1985627](https://github.com/wmfs/tymly-base/commit/1985627))
+
 # [1.55.0](https://github.com/wmfs/tymly-base/compare/v1.54.0...v1.55.0) (2018-08-23)
 
 
