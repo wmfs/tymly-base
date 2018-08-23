@@ -1,3 +1,10 @@
+# [1.54.0](https://github.com/wmfs/tymly-base/compare/v1.53.0...v1.54.0) (2018-08-23)
+
+
+### ✨ Features
+
+* Added tymly-rbac-plugin ([e57d921](https://github.com/wmfs/tymly-base/commit/e57d921))
+
 # [1.53.0](https://github.com/wmfs/tymly-base/compare/v1.52.0...v1.53.0) (2018-08-22)
 
 
