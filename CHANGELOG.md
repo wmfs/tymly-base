@@ -1,3 +1,10 @@
+# [1.61.0](https://github.com/wmfs/tymly-base/compare/v1.60.0...v1.61.0) (2018-09-03)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-express-plugin requirement from 1.3.0 to 1.3.1 ([f39b791](https://github.com/wmfs/tymly-base/commit/f39b791))
+
 # [1.60.0](https://github.com/wmfs/tymly-base/compare/v1.59.0...v1.60.0) (2018-08-30)
 
 
