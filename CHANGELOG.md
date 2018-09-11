@@ -1,3 +1,10 @@
+# [1.105.0](https://github.com/wmfs/tymly-base/compare/v1.104.0...v1.105.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** Add tymly-rest-client-plugin dependency ([443f47a](https://github.com/wmfs/tymly-base/commit/443f47a))
+
 # [1.104.0](https://github.com/wmfs/tymly-base/compare/v1.103.0...v1.104.0) (2018-09-11)
 
 
