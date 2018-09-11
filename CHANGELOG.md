@@ -1,3 +1,10 @@
+# [1.85.0](https://github.com/wmfs/tymly-base/compare/v1.84.0...v1.85.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-rankings-plugin requirement ([28f3470](https://github.com/wmfs/tymly-base/commit/28f3470))
+
 # [1.84.0](https://github.com/wmfs/tymly-base/compare/v1.83.0...v1.84.0) (2018-09-11)
 
 
