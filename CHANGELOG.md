@@ -1,3 +1,11 @@
+# [1.119.0](https://github.com/wmfs/tymly-base/compare/v1.118.0...v1.119.0) (2018-09-12)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([edede91](https://github.com/wmfs/tymly-base/commit/edede91))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-rankings-plugin requirement ([ed416d1](https://github.com/wmfs/tymly-base/commit/ed416d1))
+
 # [1.118.0](https://github.com/wmfs/tymly-base/compare/v1.117.0...v1.118.0) (2018-09-12)
 
 
