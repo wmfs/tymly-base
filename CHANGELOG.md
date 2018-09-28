@@ -1,3 +1,15 @@
+# [1.145.0](https://github.com/wmfs/tymly-base/compare/v1.144.0...v1.145.0) (2018-09-28)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([e84f669](https://github.com/wmfs/tymly-base/commit/e84f669))
+
+
+### ♻️ Chores
+
+* **dev-deps:** Bump rbac-plugin to 1.2.0, express-plugin to 1.11.0, corrected rest-client-plugin ([1381c22](https://github.com/wmfs/tymly-base/commit/1381c22))
+
 # [1.144.0](https://github.com/wmfs/tymly-base/compare/v1.143.0...v1.144.0) (2018-09-27)
 
 
