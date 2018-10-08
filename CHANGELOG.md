@@ -1,3 +1,16 @@
+# [1.159.0](https://github.com/wmfs/tymly-base/compare/v1.158.0...v1.159.0) (2018-10-08)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-diaries-plugin requirement ([5cb3f3c](https://github.com/wmfs/tymly-base/commit/5cb3f3c))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-etl-plugin requirement ([133cc3f](https://github.com/wmfs/tymly-base/commit/133cc3f))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-express-plugin requirement ([4a68b38](https://github.com/wmfs/tymly-base/commit/4a68b38))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([0083eb9](https://github.com/wmfs/tymly-base/commit/0083eb9))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement from 2.53.0 to 2.54.0 ([7f7421e](https://github.com/wmfs/tymly-base/commit/7f7421e))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-solr-plugin requirement ([c5a2ff7](https://github.com/wmfs/tymly-base/commit/c5a2ff7))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-users-plugin requirement ([2b76ae6](https://github.com/wmfs/tymly-base/commit/2b76ae6))
+
 # [1.158.0](https://github.com/wmfs/tymly-base/compare/v1.157.0...v1.158.0) (2018-10-08)
 
 
