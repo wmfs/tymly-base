@@ -21,7 +21,7 @@
     "@wmfs/tymly-auth-auth0-plugin": "1.6.0",
     "@wmfs/tymly-diaries-plugin": "1.5.0",
     "@wmfs/tymly-etl-plugin": "1.66.0",
-    "@wmfs/tymly-express-plugin": "1.11.0",
+    "@wmfs/tymly-express-plugin": "1.12.0",
     "@wmfs/tymly-gov-uk-notify-plugin": "1.5.0",
     "@wmfs/tymly-pg-plugin": "1.74.0",
     "@wmfs/tymly-rankings-plugin": "1.10.0",
