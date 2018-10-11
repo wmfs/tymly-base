@@ -1,3 +1,10 @@
+# [1.170.0](https://github.com/wmfs/tymly-base/compare/v1.169.0...v1.170.0) (2018-10-11)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-upload-plugin requirement ([19afb67](https://github.com/wmfs/tymly-base/commit/19afb67))
+
 # [1.169.0](https://github.com/wmfs/tymly-base/compare/v1.168.0...v1.169.0) (2018-10-11)
 
 
