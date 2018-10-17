@@ -1,3 +1,10 @@
+# [1.180.0](https://github.com/wmfs/tymly-base/compare/v1.179.0...v1.180.0) (2018-10-17)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-diaries-plugin requirement ([fd341ef](https://github.com/wmfs/tymly-base/commit/fd341ef))
+
 # [1.179.0](https://github.com/wmfs/tymly-base/compare/v1.178.0...v1.179.0) (2018-10-16)
 
 
