@@ -1,3 +1,11 @@
+# [1.185.0](https://github.com/wmfs/tymly-base/compare/v1.184.0...v1.185.0) (2018-10-19)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-etl-plugin requirement ([6f84297](https://github.com/wmfs/tymly-base/commit/6f84297))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement from 2.65.0 to 2.66.0 ([c841d28](https://github.com/wmfs/tymly-base/commit/c841d28))
+
 # [1.184.0](https://github.com/wmfs/tymly-base/compare/v1.183.0...v1.184.0) (2018-10-19)
 
 
