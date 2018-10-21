@@ -1,3 +1,12 @@
+# [1.190.0](https://github.com/wmfs/tymly-base/compare/v1.189.0...v1.190.0) (2018-10-21)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-users-plugin requirement ([8e259ad](https://github.com/wmfs/tymly-base/commit/8e259ad))
+* **deps-dev:** update semantic-release requirement ([5996b20](https://github.com/wmfs/tymly-base/commit/5996b20))
+* **deps-dev:** update semantic-release requirement ([90f3c4c](https://github.com/wmfs/tymly-base/commit/90f3c4c))
+
 # [1.189.0](https://github.com/wmfs/tymly-base/compare/v1.188.0...v1.189.0) (2018-10-20)
 
 
