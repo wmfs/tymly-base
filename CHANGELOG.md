@@ -1,3 +1,10 @@
+# [1.199.0](https://github.com/wmfs/tymly-base/compare/v1.198.0...v1.199.0) (2018-10-25)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin requirement ([6ae3564](https://github.com/wmfs/tymly-base/commit/6ae3564))
+
 # [1.198.0](https://github.com/wmfs/tymly-base/compare/v1.197.0...v1.198.0) (2018-10-24)
 
 
