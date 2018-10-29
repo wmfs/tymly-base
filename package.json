@@ -18,7 +18,7 @@
   "license": "MIT",
   "author": "West Midlands Fire Service",
   "dependencies": {
-    "@wmfs/tymly-auth-auth0-plugin": "1.7.0",
+    "@wmfs/tymly-auth-auth0-plugin": "1.7.1",
     "@wmfs/tymly-diaries-plugin": "1.7.2",
     "@wmfs/tymly-etl-plugin": "1.85.0",
     "@wmfs/tymly-express-plugin": "1.15.0",
