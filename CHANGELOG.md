@@ -1,3 +1,10 @@
+# [1.215.0](https://github.com/wmfs/tymly-base/compare/v1.214.0...v1.215.0) (2018-11-01)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-express-plugin requirement ([16e2c1e](https://github.com/wmfs/tymly-base/commit/16e2c1e))
+
 # [1.214.0](https://github.com/wmfs/tymly-base/compare/v1.213.0...v1.214.0) (2018-11-01)
 
 
