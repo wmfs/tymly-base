@@ -25,7 +25,7 @@
     "@wmfs/tymly-gov-uk-notify-plugin": "1.7.0",
     "@wmfs/tymly-pg-plugin": "1.91.0",
     "@wmfs/tymly-rankings-plugin": "1.11.0",
-    "@wmfs/tymly-rbac-plugin": "1.7.0",
+    "@wmfs/tymly-rbac-plugin": "1.8.0",
     "@wmfs/tymly-rest-client-plugin": "1.0.0",
     "@wmfs/tymly-runner": "2.73.0",
     "@wmfs/tymly-solr-plugin": "1.6.0",
