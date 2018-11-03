@@ -1,3 +1,15 @@
+# [1.222.0](https://github.com/wmfs/tymly-base/compare/v1.221.0...v1.222.0) (2018-11-03)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-diaries-plugin requirement ([9cda3be](https://github.com/wmfs/tymly-base/commit/9cda3be))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-express-plugin requirement ([7bc0e43](https://github.com/wmfs/tymly-base/commit/7bc0e43))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([0dcf2eb](https://github.com/wmfs/tymly-base/commit/0dcf2eb))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-rankings-plugin requirement ([ed78c84](https://github.com/wmfs/tymly-base/commit/ed78c84))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement from 2.73.0 to 2.74.0 ([d7c17ef](https://github.com/wmfs/tymly-base/commit/d7c17ef))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-solr-plugin requirement ([018eebf](https://github.com/wmfs/tymly-base/commit/018eebf))
+
 # [1.221.0](https://github.com/wmfs/tymly-base/compare/v1.220.0...v1.221.0) (2018-11-03)
 
 
