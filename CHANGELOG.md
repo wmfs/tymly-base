@@ -1,3 +1,10 @@
+# [1.234.0](https://github.com/wmfs/tymly-base/compare/v1.233.0...v1.234.0) (2018-11-10)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([c448e30](https://github.com/wmfs/tymly-base/commit/c448e30))
+
 # [1.233.0](https://github.com/wmfs/tymly-base/compare/v1.232.0...v1.233.0) (2018-11-10)
 
 
