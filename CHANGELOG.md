@@ -1,3 +1,10 @@
+# [1.237.0](https://github.com/wmfs/tymly-base/compare/v1.236.0...v1.237.0) (2018-11-12)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-auth-auth0-plugin requirement ([58a3acc](https://github.com/wmfs/tymly-base/commit/58a3acc))
+
 # [1.236.0](https://github.com/wmfs/tymly-base/compare/v1.235.0...v1.236.0) (2018-11-12)
 
 
