@@ -1,3 +1,17 @@
+# [1.241.0](https://github.com/wmfs/tymly-base/compare/v1.240.0...v1.241.0) (2018-11-14)
+
+
+### 🛠 Builds
+
+* **deps:** added [@wmfs](https://github.com/wmfs)/tymly-sharepoint-plugin requirement ([b99db12](https://github.com/wmfs/tymly-base/commit/b99db12))
+* **deps:** added [@wmfs](https://github.com/wmfs)/tymly-sharepoint-plugin requirement ([b2000cc](https://github.com/wmfs/tymly-base/commit/b2000cc))
+* **deps:** remove tymly-sharepoint-plugin ([b9a2bb7](https://github.com/wmfs/tymly-base/commit/b9a2bb7))
+
+
+### ⚙️ Continuous Integrations
+
+* **travis:** update env variable ([cab2e1d](https://github.com/wmfs/tymly-base/commit/cab2e1d))
+
 # [1.240.0](https://github.com/wmfs/tymly-base/compare/v1.239.0...v1.240.0) (2018-11-14)
 
 
