@@ -1,3 +1,10 @@
+## [1.243.1](https://github.com/wmfs/tymly-base/compare/v1.243.0...v1.243.1) (2018-11-15)
+
+
+### 🐛 Bug Fixes
+
+* revert rbac changes for build ([45b5cfb](https://github.com/wmfs/tymly-base/commit/45b5cfb))
+
 # [1.243.0](https://github.com/wmfs/tymly-base/compare/v1.242.0...v1.243.0) (2018-11-15)
 
 
