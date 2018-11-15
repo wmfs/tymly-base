@@ -1,3 +1,11 @@
+# [1.245.0](https://github.com/wmfs/tymly-base/compare/v1.244.0...v1.245.0) (2018-11-15)
+
+
+### 🛠 Builds
+
+* **deps:** update etl and tymly-runner versions ([c76ac2a](https://github.com/wmfs/tymly-base/commit/c76ac2a))
+* **deps:** update plugin versions ([312e290](https://github.com/wmfs/tymly-base/commit/312e290))
+
 # [1.244.0](https://github.com/wmfs/tymly-base/compare/v1.243.1...v1.244.0) (2018-11-15)
 
 
