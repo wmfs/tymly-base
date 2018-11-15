@@ -1,3 +1,10 @@
+# [1.244.0](https://github.com/wmfs/tymly-base/compare/v1.243.1...v1.244.0) (2018-11-15)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-users-plugin version ([afad69b](https://github.com/wmfs/tymly-base/commit/afad69b))
+
 ## [1.243.1](https://github.com/wmfs/tymly-base/compare/v1.243.0...v1.243.1) (2018-11-15)
 
 
