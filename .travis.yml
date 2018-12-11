@@ -16,9 +16,11 @@ before_install:
   - npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
 install:
   - travis_retry npm install
+  - npm install -g snyk
 script:
   - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
   - docker build -t tymly-base .
+  - snyk test --docker tymly-base
   - ./tools/test
 deploy:
   - provider: script
