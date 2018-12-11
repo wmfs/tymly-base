@@ -1,3 +1,10 @@
+# [1.255.0](https://github.com/wmfs/tymly-base/compare/v1.254.0...v1.255.0) (2018-12-11)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-crypto-plugin requirement ([fdb1bc0](https://github.com/wmfs/tymly-base/commit/fdb1bc0))
+
 # [1.254.0](https://github.com/wmfs/tymly-base/compare/v1.253.0...v1.254.0) (2018-12-11)
 
 
