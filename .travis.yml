@@ -7,6 +7,9 @@ services:
   - docker
 sudo: false
 dist: trusty
+env:
+  global:
+  - SNYK_TOKEN=$SNYK_TOKEN
 before_script:
   - echo 'Europe/London' | sudo tee /etc/timezone
   - sudo dpkg-reconfigure --frontend noninteractive tzdata
