@@ -21,7 +21,7 @@ script:
   - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
   - docker build -t tymly-base .
   - snyk auth ${SNYK_TOKEN}
-  - snyk test --docker tymly-dev
+  - snyk test --docker tymly-base
   - ./tools/test
 deploy:
   - provider: script
