@@ -1,3 +1,18 @@
+# [1.256.0](https://github.com/wmfs/tymly-base/compare/v1.255.0...v1.256.0) (2018-12-12)
+
+
+### 🛠 Builds
+
+* **deps:** revert solr-plugin version back to 1.8.0 ([cce344c](https://github.com/wmfs/tymly-base/commit/cce344c))
+
+
+### ⚙️ Continuous Integrations
+
+* add snyk config ([59d702c](https://github.com/wmfs/tymly-base/commit/59d702c))
+* add snyk token ([6e1fa09](https://github.com/wmfs/tymly-base/commit/6e1fa09))
+* authorize snyk account ([0efa1f6](https://github.com/wmfs/tymly-base/commit/0efa1f6))
+* properly auth snyk ([f3f8e7e](https://github.com/wmfs/tymly-base/commit/f3f8e7e))
+
 # [1.255.0](https://github.com/wmfs/tymly-base/compare/v1.254.0...v1.255.0) (2018-12-11)
 
 
