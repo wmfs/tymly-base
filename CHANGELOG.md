@@ -1,3 +1,10 @@
+# [1.258.0](https://github.com/wmfs/tymly-base/compare/v1.257.0...v1.258.0) (2018-12-13)
+
+
+### 🛠 Builds
+
+* **deps:** remove crypto plugin for the moment ([bbbdd72](https://github.com/wmfs/tymly-base/commit/bbbdd72))
+
 # [1.257.0](https://github.com/wmfs/tymly-base/compare/v1.256.0...v1.257.0) (2018-12-12)
 
 
