@@ -5,6 +5,10 @@ notifications:
   email: false
 services:
   - docker
+addons:
+  apt:
+    packages:
+    - docker-ce
 sudo: false
 dist: trusty
 before_script:
