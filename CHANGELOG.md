@@ -1,3 +1,25 @@
+# [1.259.0](https://github.com/wmfs/tymly-base/compare/v1.258.0...v1.259.0) (2018-12-18)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-pg-plugin requirement ([46402d6](https://github.com/wmfs/tymly-base/commit/46402d6))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/exec requirement ([324e87f](https://github.com/wmfs/tymly-base/commit/324e87f))
+* **deps-dev:** update semantic-release requirement ([57e87ea](https://github.com/wmfs/tymly-base/commit/57e87ea))
+* **Docker:** From node alpine LTS ([639c8e7](https://github.com/wmfs/tymly-base/commit/639c8e7))
+
+
+### ⚙️ Continuous Integrations
+
+* set node version to lts ([1a3eede](https://github.com/wmfs/tymly-base/commit/1a3eede))
+* **travis:** set Docker to build using Buildkit ([895e55c](https://github.com/wmfs/tymly-base/commit/895e55c))
+* **travis:** update version of Docker travis uses ([8f0f531](https://github.com/wmfs/tymly-base/commit/8f0f531))
+
+
+### 🗑 Reverts
+
+* **travis:** apparently buildkit isn't supported is not supported ... ([578bee2](https://github.com/wmfs/tymly-base/commit/578bee2))
+
 # [1.258.0](https://github.com/wmfs/tymly-base/compare/v1.257.0...v1.258.0) (2018-12-13)
 
 
