@@ -1,3 +1,10 @@
+# [1.268.0](https://github.com/wmfs/tymly-base/compare/v1.267.0...v1.268.0) (2019-03-21)
+
+
+### 🛠 Builds
+
+* **deps:** update all deps ([ea680df](https://github.com/wmfs/tymly-base/commit/ea680df))
+
 # [1.267.0](https://github.com/wmfs/tymly-base/compare/v1.266.0...v1.267.0) (2019-03-14)
 
 
