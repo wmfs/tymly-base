@@ -1,3 +1,10 @@
+# [1.269.0](https://github.com/wmfs/tymly-base/compare/v1.268.0...v1.269.0) (2019-03-21)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement from 2.88.1 to 2.89.0 ([aeb0577](https://github.com/wmfs/tymly-base/commit/aeb0577))
+
 # [1.268.0](https://github.com/wmfs/tymly-base/compare/v1.267.0...v1.268.0) (2019-03-21)
 
 
