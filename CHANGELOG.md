@@ -1,3 +1,15 @@
+# [1.271.0](https://github.com/wmfs/tymly-base/compare/v1.270.0...v1.271.0) (2019-04-01)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin requirement ([e30caf4](https://github.com/wmfs/tymly-base/commit/e30caf4))
+
+
+### ⚙️ Continuous Integrations
+
+* update image tagging in release config ([26c1b29](https://github.com/wmfs/tymly-base/commit/26c1b29))
+
 # [1.270.0](https://github.com/wmfs/tymly-base/compare/v1.269.0...v1.270.0) (2019-04-01)
 
 
