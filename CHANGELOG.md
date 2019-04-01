@@ -1,3 +1,16 @@
+# [1.270.0](https://github.com/wmfs/tymly-base/compare/v1.269.0...v1.270.0) (2019-04-01)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement from 2.89.0 to 2.94.0 ([84590d4](https://github.com/wmfs/tymly-base/commit/84590d4))
+
+
+### ⚙️ Continuous Integrations
+
+* **travis:** typo ([875a097](https://github.com/wmfs/tymly-base/commit/875a097))
+* **travis:** update build stage config ([8c9950c](https://github.com/wmfs/tymly-base/commit/8c9950c))
+
 # [1.269.0](https://github.com/wmfs/tymly-base/compare/v1.268.0...v1.269.0) (2019-03-21)
 
 
