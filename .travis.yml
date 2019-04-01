@@ -20,7 +20,7 @@ jobs:
       name: "Boot testing"
       if: (branch = master AND commit_message =~ /(feat|fix|perf|ci|build)\(?\w*\)?:/) OR (branch =~ /(dependabot)(?:.*)/ AND commit_message =~ /(build)\(?\w*\)?:/)
       before_script: chmod +x ./tools/test
-      sctipt:
+      script:
         - docker build -t tymly-base .
         - ./tools/test
     - <<: *tests
