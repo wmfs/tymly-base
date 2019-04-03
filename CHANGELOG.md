@@ -1,3 +1,22 @@
+# [1.272.0](https://github.com/wmfs/tymly-base/compare/v1.271.0...v1.272.0) (2019-04-03)
+
+
+### 🛠 Builds
+
+* copy specific things ([07a6cf1](https://github.com/wmfs/tymly-base/commit/07a6cf1))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-auth-auth0-plugin requirement ([63efa42](https://github.com/wmfs/tymly-base/commit/63efa42))
+
+
+### 🚨 Tests
+
+* lower startup wait ([82dc9c3](https://github.com/wmfs/tymly-base/commit/82dc9c3))
+* use correct postgres image ([68bb087](https://github.com/wmfs/tymly-base/commit/68bb087))
+
+
+### ⚙️ Continuous Integrations
+
+* **travis:** pull postgres image ([96cb638](https://github.com/wmfs/tymly-base/commit/96cb638))
+
 # [1.271.0](https://github.com/wmfs/tymly-base/compare/v1.270.0...v1.271.0) (2019-04-01)
 
 
