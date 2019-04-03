@@ -22,6 +22,7 @@ jobs:
       before_script: chmod +x ./tools/test
       script:
         - docker build -t tymly-base .
+        - docker pull postgres:9.6.12-alpine
         - ./tools/test
     - <<: *tests
       name: "Snyk testing"
