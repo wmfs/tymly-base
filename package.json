@@ -28,7 +28,7 @@
     "@wmfs/tymly-rbac-plugin": "1.12.2",
     "@wmfs/tymly-rest-client-plugin": "1.0.1",
     "@wmfs/tymly-runner": "2.94.0",
-    "@wmfs/tymly-solr-plugin": "1.14.3",
+    "@wmfs/tymly-solr-plugin": "1.15.0",
     "@wmfs/tymly-upload-plugin": "1.4.1",
     "@wmfs/tymly-users-plugin": "1.14.0"
   },
