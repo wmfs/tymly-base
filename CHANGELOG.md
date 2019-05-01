@@ -1,3 +1,10 @@
+# [1.277.0](https://github.com/wmfs/tymly-base/compare/v1.276.0...v1.277.0) (2019-05-01)
+
+
+### ✨ Features
+
+* Add crypto plugin ([d9f2c3e](https://github.com/wmfs/tymly-base/commit/d9f2c3e))
+
 # [1.276.0](https://github.com/wmfs/tymly-base/compare/v1.275.0...v1.276.0) (2019-05-01)
 
 
