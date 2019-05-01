@@ -1,3 +1,10 @@
+# [1.278.0](https://github.com/wmfs/tymly-base/compare/v1.277.0...v1.278.0) (2019-05-01)
+
+
+### ✨ Features
+
+* add sharepoint plugin & env var for testing ([a13c15d](https://github.com/wmfs/tymly-base/commit/a13c15d))
+
 # [1.277.0](https://github.com/wmfs/tymly-base/compare/v1.276.0...v1.277.0) (2019-05-01)
 
 
