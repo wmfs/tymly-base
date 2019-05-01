@@ -18,6 +18,9 @@ services:
     environment:
       - DEBUG=*
       - PG_CONNECTION_STRING=postgres://postgres:postgres@db:5432/tymly
+      - SHAREPOINT_URL=DISABLED
+      - TYMLY_AUTH_SECRET=Shh!
+      - TYMLY_AUTH_AUDIENCE="I am the audience!"
     depends_on:
       db:
         condition: service_healthy
