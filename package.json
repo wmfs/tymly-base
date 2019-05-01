@@ -30,7 +30,7 @@
     "@wmfs/tymly-runner": "2.94.0",
     "@wmfs/tymly-solr-plugin": "1.14.3",
     "@wmfs/tymly-upload-plugin": "1.4.1",
-    "@wmfs/tymly-users-plugin": "1.14.0"
+    "@wmfs/tymly-cardscript-plugin": "1.4.0"
   },
   "devDependencies": {
     "conventional-changelog-metahub": "2.0.2",
