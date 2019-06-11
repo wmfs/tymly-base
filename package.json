@@ -32,7 +32,7 @@
     "@wmfs/tymly-solr-plugin": "1.16.0",
     "@wmfs/tymly-upload-plugin": "1.4.1",
     "@wmfs/tymly-cardscript-plugin": "1.4.0",
-    "@wmfs/tymly-sharepoint-plugin": "1.5.1"
+    "@wmfs/tymly-sharepoint-plugin": "1.6.0"
   },
   "devDependencies": {
     "conventional-changelog-metahub": "2.0.2",
