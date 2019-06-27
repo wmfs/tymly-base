@@ -1,3 +1,20 @@
+# [1.279.0](https://github.com/wmfs/tymly-base/compare/v1.278.0...v1.279.0) (2019-06-27)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-express-plugin requirement ([f37122a](https://github.com/wmfs/tymly-base/commit/f37122a))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin requirement ([bad11ad](https://github.com/wmfs/tymly-base/commit/bad11ad))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement from 2.95.0 to 2.96.0 ([fb9bdf1](https://github.com/wmfs/tymly-base/commit/fb9bdf1))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement from 2.96.0 to 2.97.0 ([744dc4c](https://github.com/wmfs/tymly-base/commit/744dc4c))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-sharepoint-plugin requirement ([34634b0](https://github.com/wmfs/tymly-base/commit/34634b0))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/exec requirement ([666b8e9](https://github.com/wmfs/tymly-base/commit/666b8e9))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/exec requirement ([019cd0b](https://github.com/wmfs/tymly-base/commit/019cd0b))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([049663b](https://github.com/wmfs/tymly-base/commit/049663b))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([51f0d9b](https://github.com/wmfs/tymly-base/commit/51f0d9b))
+* **deps-dev:** update semantic-release requirement ([679697d](https://github.com/wmfs/tymly-base/commit/679697d))
+* **deps-dev:** update semantic-release requirement ([6835b02](https://github.com/wmfs/tymly-base/commit/6835b02))
+
 # [1.278.0](https://github.com/wmfs/tymly-base/compare/v1.277.0...v1.278.0) (2019-05-01)
 
 
