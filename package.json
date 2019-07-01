@@ -39,7 +39,7 @@
     "cz-conventional-changelog": "2.1.0",
     "semantic-release": "15.13.18",
     "@semantic-release/changelog": "3.0.2",
-    "@semantic-release/git": "7.0.14",
+    "@semantic-release/git": "7.0.15",
     "@semantic-release/exec": "3.3.5"
   },
   "scripts": {
