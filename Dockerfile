@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM wmfs/node:lts-alpine
 LABEL maintainer="West Midlands Fire Service <tymly@wmfs.net>"
 COPY package.json ./
 COPY ./config/. ./config/.
