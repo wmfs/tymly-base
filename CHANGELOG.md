@@ -1,3 +1,11 @@
+# [1.280.0](https://github.com/wmfs/tymly-base/compare/v1.279.0...v1.280.0) (2019-07-01)
+
+
+### 🛠 Builds
+
+* Use wmfs clone of node:lts-alpine ([b9f2c23](https://github.com/wmfs/tymly-base/commit/b9f2c23))
+* **deps:** Update many dependancies ([2535be4](https://github.com/wmfs/tymly-base/commit/2535be4))
+
 # [1.279.0](https://github.com/wmfs/tymly-base/compare/v1.278.0...v1.279.0) (2019-06-27)
 
 
