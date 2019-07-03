@@ -22,7 +22,7 @@
     "@wmfs/tymly-crypto-plugin": "1.4.0",
     "@wmfs/tymly-diaries-plugin": "1.11.1",
     "@wmfs/tymly-etl-plugin": "1.107.0",
-    "@wmfs/tymly-express-plugin": "1.23.0",
+    "@wmfs/tymly-express-plugin": "1.24.0",
     "@wmfs/tymly-gov-uk-notify-plugin": "1.9.0",
     "@wmfs/tymly-pg-plugin": "1.124.0",
     "@wmfs/tymly-rankings-plugin": "1.12.0",
