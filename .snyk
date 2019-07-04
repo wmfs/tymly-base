@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - '@wmfs/tymly-runner > @wmfs/tymly > @wmfs/statebox > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-express-plugin > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - conventional-changelog-metahub > lodash:
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-pg-plugin > @wmfs/pg-model > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - semantic-release > @semantic-release/commit-analyzer > lodash:
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-solr-plugin > async > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-runner > @wmfs/tymly > async > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-rest-client-plugin > request-promise-native > request-promise-core > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - semantic-release > lodash:
+        patched: '2019-07-04T07:28:13.968Z'
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-sharepoint-plugin > @wmfs/sharepoint > node-sp-auth > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-gov-uk-notify-plugin > notifications-node-client > request-promise > request-promise-core > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-runner > @wmfs/tymly > @wmfs/statebox > @wmfs/asl-choice-processor > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-pg-plugin > @wmfs/pg-telepods > @wmfs/supercopy > async > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-sharepoint-plugin > @wmfs/sharepoint > node-sp-auth > node-sp-auth-config > node-sp-auth > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-sharepoint-plugin > @wmfs/sharepoint > node-sp-auth > node-sp-auth-config > inquirer > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-sharepoint-plugin > @wmfs/sharepoint > node-sp-auth > request-promise > request-promise-core > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
+    - '@wmfs/tymly-sharepoint-plugin > @wmfs/sharepoint > node-sp-auth > node-sp-auth-config > node-sp-auth > request-promise > request-promise-core > lodash':
+        patched: '2019-07-04T07:28:13.968Z'
