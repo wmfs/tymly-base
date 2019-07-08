@@ -9,7 +9,7 @@ echo "Lets test Tymly"
 
 docker-compose up &
 
-sleep 20
+sleep 45
 
 tymly_up=$(docker logs tymlybase_tymly_1 2>&1 | grep "Admin token")
 
