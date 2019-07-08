@@ -10,16 +10,13 @@ jobs:
     - checkout
     - setup_remote_docker
     - run:
-        name: chmod
-        command: chmod +x ./tools/test
-    - run:
-        name: build
+        name: build image
         command: docker build -t tymly-base .
     - run:
         name: pull postgres
         command: docker pull postgres:9.6.12-alpine
     - run:
-        name: test
+        name: test build boot
         command: |
           docker-compose up &
           sleep 30
@@ -46,7 +43,7 @@ jobs:
         name: build image
         command: docker build -t tymly-base .
     - run:
-        name: scan
+        name: scan image
         command: |
           wget https://github.com/knqyf263/trivy/releases/download/v0.1.2/trivy_0.1.2_Linux-64bit.tar.gz
           tar zxvf trivy_0.1.2_Linux-64bit.tar.gz
@@ -70,7 +67,7 @@ jobs:
         name: install
         command: npm install
     - run:
-        name: release
+        name: release image
         command: |
           docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
           docker build -t wmfs/tymly-base .
