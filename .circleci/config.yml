@@ -21,9 +21,9 @@ jobs:
     - run:
         name: test
         command: |
-          tymly_up=$(docker logs tymlybase_tymly_1 2>&1 | grep "Done booting.")
           docker-compose up &
           sleep 30
+          tymly_up=$(docker logs repo_tymly_1 2>&1 | grep "Done booting.")
           if ! [ "$tymly_up" ]; then
               echo "Tymly is not running"
           fi
