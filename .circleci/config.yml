@@ -22,7 +22,7 @@ jobs:
         name: test
         command: |
           docker-compose up &
-          tymly_up=$(docker logs tymlybase_tymly_1 2>&1 | grep "Done booting."
+          tymly_up=$(docker logs tymlybase_tymly_1 2>&1 | grep "Done booting.")
           docker-compose up -d
           sleep 20
           if ! [ "$tymly_up" ]; then
