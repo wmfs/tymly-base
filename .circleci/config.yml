@@ -16,9 +16,11 @@ jobs:
         name: build
         command: docker build -t tymly-base .
     - run:
+        name: pull postgres
+        command: docker pull postgres:9.6.12-alpine
+    - run:
         name: test
         command: |
-          docker pull postgres:9.6.12-alpine
           docker-compose up &
           tymly_up=$(docker logs tymlybase_tymly_1 2>&1 | grep "Done booting."
           docker-compose up -d
