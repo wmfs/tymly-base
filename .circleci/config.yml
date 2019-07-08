@@ -1,0 +1,70 @@
+version: 2
+jobs:
+  test:
+    docker:
+    - image: circleci/node:lts
+      environment:
+        TZ: "Europe/London"
+    working_directory: ~/repo
+    steps:
+    - checkout
+    - run:
+        name: chmod
+        command: chmod +x ./tools/test
+    - run:
+        name: build
+        command: docker build -t tymly-base .
+    - run:
+        name: test
+        command: ./tools/test
+  vulnerability:
+    docker:
+    - image: circleci/node:lts
+      environment:
+        TZ: "Europe/London"
+    working_direcotry: ~/repo
+    steps:
+    - checkout
+    - run:
+        name: build
+        command: docker build -t tymly-base .
+    - run:
+        name: scan
+        command: |
+          wget https://github.com/knqyf263/trivy/releases/download/v0.1.2/trivy_0.1.2_Linux-64bit.tar.gz
+          tar zxvf trivy_0.1.2_Linux-64bit.tar.gz
+          ./trivy --quiet --auto-refresh --clear-cache tymly-gds-frontend
+          ./trivy --exit-code 1 --severity CRITICAL --quiet --clear-cache --auto-refresh tymly-gds-frontend
+  release:
+    docker:
+    # use node:lts
+    - image: circleci/node:lts
+      environment:
+        TZ: "Europe/London"
+    working_directory: ~/repo
+    steps:
+    - checkout
+    - run:
+        name: install
+        command: npm install
+    - run:
+        name: release
+        command: |
+          docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+          docker build -t wmfs/tymly-base .
+          npx semantic-release
+
+workflows:
+  version: 2
+  test_and_release:
+    jobs:
+    - test
+    - vulnerability
+    - release:
+        requires:
+        - test
+        - vulnerability
+        filters:
+          branches:
+            only: master
+
