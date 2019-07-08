@@ -2,6 +2,8 @@
 
 docker-compose version
 
+docker pull postgres:9.6.12-alpine
+
 # Start Tymly Docker
 echo "Lets test Tymly"
 
