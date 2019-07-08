@@ -17,7 +17,21 @@ jobs:
         command: docker build -t tymly-base .
     - run:
         name: test
-        command: ./tools/test
+        command: |
+          docker pull postgres:9.6.12-alpine
+          docker-compose up &
+          tymly_up=$(docker logs tymlybase_tymly_1 2>&1 | grep "Done booting."
+          docker-compose up -d
+          sleep 20
+          if ! [ "$tymly_up" ]; then
+              echo "Tymly is not running"
+          fi
+          if [ "$tymly_up" ]; then
+              echo "Tymly is running"
+          fi
+          docker-compose down
+          if ! [ "$tymly_up" ] ; then
+          fi
   vulnerability:
     docker:
     - image: circleci/node:lts
