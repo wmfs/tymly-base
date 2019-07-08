@@ -1,3 +1,36 @@
+# [1.283.0](https://github.com/wmfs/tymly-base/compare/v1.282.0...v1.283.0) (2019-07-08)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-auth-auth0-plugin requirement ([1b7bb18](https://github.com/wmfs/tymly-base/commit/1b7bb18))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([45d9e9e](https://github.com/wmfs/tymly-base/commit/45d9e9e))
+
+
+### 🚨 Tests
+
+* increase sleep time ([658fc0c](https://github.com/wmfs/tymly-base/commit/658fc0c))
+* increase sleep time ([cbf1c20](https://github.com/wmfs/tymly-base/commit/cbf1c20))
+* update docker test ([a065dc1](https://github.com/wmfs/tymly-base/commit/a065dc1))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([99fa374](https://github.com/wmfs/tymly-base/commit/99fa374))
+* **circle:** another typo ([1eb500c](https://github.com/wmfs/tymly-base/commit/1eb500c))
+* **circle:** different docker container name ([856b349](https://github.com/wmfs/tymly-base/commit/856b349))
+* **circle:** missing ) ([977fbd6](https://github.com/wmfs/tymly-base/commit/977fbd6))
+* **circle:** only need 1 docker-compose command ([bed4cdc](https://github.com/wmfs/tymly-base/commit/bed4cdc))
+* **circle:** refactor names [skip ci] ([fb54e9c](https://github.com/wmfs/tymly-base/commit/fb54e9c))
+* **circle:** refactor test ([37dc450](https://github.com/wmfs/tymly-base/commit/37dc450))
+* **circle:** setup remote docker ([7878dfd](https://github.com/wmfs/tymly-base/commit/7878dfd))
+* **circle:** setup remote docker release job ([f0a75e4](https://github.com/wmfs/tymly-base/commit/f0a75e4))
+* **circle:** trivy config ([cef921a](https://github.com/wmfs/tymly-base/commit/cef921a))
+* **circle:** trivy config ([c524606](https://github.com/wmfs/tymly-base/commit/c524606))
+* **circle:** Update test job ([a35639d](https://github.com/wmfs/tymly-base/commit/a35639d))
+* **circle:** Update test job ([e65dbd9](https://github.com/wmfs/tymly-base/commit/e65dbd9))
+* **travis:** Remove Travis config [skip ci] ([324e288](https://github.com/wmfs/tymly-base/commit/324e288))
+
 # [1.282.0](https://github.com/wmfs/tymly-base/compare/v1.281.0...v1.282.0) (2019-07-03)
 
 
