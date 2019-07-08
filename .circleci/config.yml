@@ -26,12 +26,10 @@ jobs:
           tymly_up=$(docker logs repo_tymly_1 2>&1 | grep "Done booting.")
           if ! [ "$tymly_up" ]; then
               echo "Tymly is not running"
+              exit 1
           fi
           if [ "$tymly_up" ]; then
               echo "Tymly is running"
-          fi
-          docker-compose down
-          if ! [ "$tymly_up" ] ; then
           fi
   vulnerability:
     docker:
