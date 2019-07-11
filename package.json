@@ -31,7 +31,7 @@
     "@wmfs/tymly-runner": "2.100.0",
     "@wmfs/tymly-solr-plugin": "1.18.0",
     "@wmfs/tymly-upload-plugin": "1.4.1",
-    "@wmfs/tymly-cardscript-plugin": "1.4.0",
+    "@wmfs/tymly-cardscript-plugin": "1.5.0",
     "@wmfs/tymly-sharepoint-plugin": "1.6.0"
   },
   "devDependencies": {
