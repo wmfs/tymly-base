@@ -77,8 +77,14 @@ workflows:
   version: 2
   test_and_release:
     jobs:
-    - test
-    - vulnerability
+    - test:
+        filters:
+          branches:
+            ignore: master
+    - vulnerability:
+        filters:
+          branches:
+            only: master
     - release:
         requires:
         - test
