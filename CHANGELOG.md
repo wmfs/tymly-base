@@ -1,3 +1,16 @@
+# [1.288.0](https://github.com/wmfs/tymly-base/compare/v1.287.0...v1.288.0) (2019-07-11)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin requirement ([6be5632](https://github.com/wmfs/tymly-base/commit/6be5632))
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-runner requirement ([34c1b24](https://github.com/wmfs/tymly-base/commit/34c1b24))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Don't run test job on master ([8973a8c](https://github.com/wmfs/tymly-base/commit/8973a8c))
+
 # [1.287.0](https://github.com/wmfs/tymly-base/compare/v1.286.0...v1.287.0) (2019-07-11)
 
 
