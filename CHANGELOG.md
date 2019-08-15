@@ -1,3 +1,10 @@
+# [1.289.0](https://github.com/wmfs/tymly-base/compare/v1.288.0...v1.289.0) (2019-08-15)
+
+
+### 🛠 Builds
+
+* **deps:** update deps ([dec3780](https://github.com/wmfs/tymly-base/commit/dec3780))
+
 # [1.288.0](https://github.com/wmfs/tymly-base/compare/v1.287.0...v1.288.0) (2019-07-11)
 
 
