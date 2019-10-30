@@ -1,3 +1,11 @@
+# [1.291.0](https://github.com/wmfs/tymly-base/compare/v1.290.0...v1.291.0) (2019-10-30)
+
+
+### 🛠 Builds
+
+* **deps:** update many deps ([b9e9202](https://github.com/wmfs/tymly-base/commit/b9e92026e80a193250ade31384abcbc4d3d68dae))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/exec requirement ([bee7602](https://github.com/wmfs/tymly-base/commit/bee760283a91bc70dc359fd67572a538aead077b))
+
 # [1.290.0](https://github.com/wmfs/tymly-base/compare/v1.289.0...v1.290.0) (2019-09-05)
 
 
