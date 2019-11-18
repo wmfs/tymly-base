@@ -37,7 +37,7 @@
   "devDependencies": {
     "conventional-changelog-metahub": "3.0.0",
     "cz-conventional-changelog": "3.0.2",
-    "semantic-release": "15.13.28",
+    "semantic-release": "15.13.31",
     "@semantic-release/changelog": "3.0.5",
     "@semantic-release/git": "7.0.17",
     "@semantic-release/exec": "3.3.8"
