@@ -1,7 +1,7 @@
 {
   "name": "@wmfs/tymly-base",
   "version": "0.0.0-semantically-released",
-  "decsription": "WMFS Tymly development build",
+  "decsription": "Pre-packaged base dependencies for running Tymly",
   "keywords": [
     "tymly",
     "build",
@@ -18,38 +18,30 @@
   "license": "MIT",
   "author": "West Midlands Fire Service",
   "dependencies": {
-    "@wmfs/tymly-auth-auth0-plugin": "1.16.2",
-    "@wmfs/tymly-crypto-plugin": "1.5.2",
-    "@wmfs/tymly-diaries-plugin": "1.13.0",
-    "@wmfs/tymly-etl-plugin": "1.110.0",
-    "@wmfs/tymly-express-plugin": "1.27.0",
-    "@wmfs/tymly-gov-uk-notify-plugin": "1.9.1",
-    "@wmfs/tymly-pg-plugin": "1.135.0",
-    "@wmfs/tymly-rankings-plugin": "1.14.0",
-    "@wmfs/tymly-rbac-plugin": "1.14.0",
-    "@wmfs/tymly-rest-client-plugin": "1.1.0",
-    "@wmfs/tymly-runner": "2.107.0",
-    "@wmfs/tymly-solr-plugin": "2.0.0",
-    "@wmfs/tymly-upload-plugin": "1.4.1",
-    "@wmfs/tymly-cardscript-plugin": "1.7.0",
-    "@wmfs/tymly-sharepoint-plugin": "1.7.0"
+    "@wmfs/tymly-auth-auth0-plugin": "1.23.0",
+    "@wmfs/tymly-cardscript-plugin": "1.21.0",
+    "@wmfs/tymly-cloudstorage-plugin": "1.4.0",
+    "@wmfs/tymly-crypto-plugin": "1.8.0",
+    "@wmfs/tymly-etl-plugin": "1.144.0",
+    "@wmfs/tymly-fastify-plugin": "1.12.0",
+    "@wmfs/tymly-localfilestorage-plugin": "1.1.2",
+    "@wmfs/tymly-pg-plugin": "1.232.0",
+    "@wmfs/tymly-rbac-plugin": "1.18.0",
+    "@wmfs/tymly-rest-client-plugin": "1.8.0",
+    "@wmfs/tymly-runner": "2.150.0",
+    "@wmfs/tymly-solr-plugin": "2.16.0"
   },
   "devDependencies": {
-    "conventional-changelog-metahub": "3.0.0",
-    "cz-conventional-changelog": "3.0.2",
-    "semantic-release": "15.13.28",
-    "@semantic-release/changelog": "3.0.5",
-    "@semantic-release/git": "7.0.17",
-    "@semantic-release/exec": "3.3.8"
+    "conventional-changelog-metahub": "4.0.1",
+    "semantic-release": "17.3.0",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/exec": "5.0.0"
   },
   "scripts": {
     "semantic-release": "semantic-release"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
+  "config": {},
   "publishConfig": {
     "access": "public"
   }
