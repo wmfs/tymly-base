@@ -106,12 +106,17 @@ workflows:
   version: 2
   test_and_release:
     jobs:
-    - boot test
-    - vulnerability scan
+    - build base api
+    - boot test:
+        requires:
+          - build base api
+    - vulnerability scan:
+        requires:
+          - build base api
     - release:
         requires:
-        - boot test
-        - vulnerability scan
+          - boot test
+          - vulnerability scan
         filters:
           branches:
             only: master
