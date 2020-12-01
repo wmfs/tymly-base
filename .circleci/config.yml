@@ -14,7 +14,7 @@ jobs:
       - setup_remote_docker:
           version: 19.03.12
       - run:
-          name: Get certificate
+          name: Get Auth0 certificate
           command: |
             mkdir certificate
             wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O tymly.pem -P ./certificate/
