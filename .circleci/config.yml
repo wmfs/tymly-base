@@ -17,7 +17,7 @@ jobs:
           name: Get Auth0 certificate
           command: |
             mkdir certificate
-            wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O tymly.pem -P ./certificate/
+            wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O ./certificate/tymly.pem
       - run:
           name: build image
           command: docker build -t wmfs/tymly-base .
