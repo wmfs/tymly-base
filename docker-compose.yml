@@ -14,7 +14,7 @@ services:
       timeout: 5s
       retries: 5
   tymly:
-    image: tymly-base
+    image: wmfs/tymly-base
     environment:
       - DEBUG=*
       - PG_CONNECTION_STRING=postgres://postgres:postgres@db:5432/tymly

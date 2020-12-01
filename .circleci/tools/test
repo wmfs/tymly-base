@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+#Boot Tymly
+echo "Booting Tymly...";
+
+docker-compose up &
+
+sleep 30
+
+tymly_up=$(docker logs repo_tymly_1 2>&1 | grep "Done booting")
+
+echo "Checking if Tymly is running..."
+
+if ! [ "$tymly_up" ]; then
+        echo "*** ALERT *** Tymly is not running" && exit 1;
+else
+        echo "Tymly is running";
+fi

@@ -4,6 +4,9 @@
   "config": {
     "serverHost": "0.0.0.0",
     "serverPort": "3210",
+    "auth": {
+      "certificate": "/certificate/tymly.pem"
+    },
     "admin": {
       "userId": "admin",
       "roles": "ordnanceSurvey_ordnanceSurveyAdmin,wmfs_addressboxAdmin"

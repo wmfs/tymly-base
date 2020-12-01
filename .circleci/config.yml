@@ -1,62 +1,97 @@
 version: 2
 jobs:
-  test:
+  build base api:
     docker:
-    - image: circleci/node:lts
-      environment:
-        TZ: "Europe/London"
+      - image: circleci/node:lts
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
+        environment:
+          TZ: "Europe/London"
     working_directory: ~/repo
     steps:
-    - checkout
-    - setup_remote_docker
-    - run:
-        name: build image
-        command: docker build -t tymly-base .
-    - run:
-        name: pull postgres
-        command: docker pull postgres:9.6.12-alpine
-    - run:
-        name: test build boot
-        command: |
-          docker-compose up &
-          sleep 30
-          tymly_up=$(docker logs repo_tymly_1 2>&1 | grep "Done booting.")
-          if ! [ "$tymly_up" ]; then
-              echo "Tymly is not running"
-              exit 1
-          fi
-          if [ "$tymly_up" ]; then
-              echo "Tymly is running"
-          fi
-  vulnerability:
+      - checkout
+      - setup_remote_docker:
+          version: 19.03.12
+      - run:
+          name: Get certificate
+          command: |
+            mkdir ./repo/certificate
+            wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O tymly.pem -P ./repo/certificate/
+      - run:
+          name: build image
+          command: docker build -t wmfs/tymly-base .
+      - run:
+          name: Store Docker image
+          command: docker save -o base-image.tar wmfs/tymly-base
+      - persist_to_workspace:
+          root: .
+          paths:
+            - ./base-image.tar
+  boot test:
     docker:
-    - image: circleci/node:lts
-      environment:
-        TZ: "Europe/London"
-    working_direcotry: ~/repo
+      - image: circleci/node:lts
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
+        environment:
+          TZ: "Europe/London"
+    working_directory: ~/repo
     steps:
-    - checkout
-    - setup_remote_docker
-    - restore_cache:
-        key: vulnerability-db
-    - run:
-        name: build image
-        command: docker build -t tymly-base .
-    - run:
-        name: scan image
-        command: |
-          wget https://github.com/knqyf263/trivy/releases/download/v0.1.2/trivy_0.1.2_Linux-64bit.tar.gz
-          tar zxvf trivy_0.1.2_Linux-64bit.tar.gz
-          ./trivy --quiet --auto-refresh --clear-cache tymly-base
-          ./trivy --exit-code 1 --severity CRITICAL --quiet --clear-cache --auto-refresh tymly-base
-    - save_cache:
-        key: vulnerability-db
-        paths:
-          - $HOME/.cache/trivy
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - setup_remote_docker:
+          version: 19.03.12
+      - run:
+          name: Load stored base image
+          command: |
+            docker load -i /tmp/workspace/base-image.tar
+      - run:
+          name: Boot base image
+          command: |
+            docker pull postgres:9.6.12-alpine
+            bash .circleci/tools/test
+  vulnerability scan:
+    docker:
+      - image: circleci/node:lts
+        environment:
+          TZ: "Europe/London"
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - setup_remote_docker:
+          version: 19.03.12
+      - restore_cache:
+          key: vulnerability-db
+      - run:
+          name: Load stored base image
+          command: |
+            docker load -i /tmp/workspace/base-image.tar
+      - run:
+          name: Scan api and app images
+          command: |
+            trivy_version=$(
+              curl --silent "https://api.github.com/repos/aquasecurity/trivy/releases/latest" | \
+              grep '"tag_name":' | \
+              sed -E 's/.*"v([^"]+)".*/\1/'
+            )
+            wget https://github.com/aquasecurity/trivy/releases/download/v${trivy_version}/trivy_${trivy_version}_Linux-64bit.tar.gz
+            tar zxvf trivy_${trivy_version}_Linux-64bit.tar.gz
+            ./trivy --quiet --auto-refresh wmfs/tymly-base
+            ./trivy --exit-code 1 --severity CRITICAL --quiet --auto-refresh wmfs/tymly-base
+      - save_cache:
+          key: vulnerability-db
+          paths:
+            - $HOME/.cache/trivy
   release:
     docker:
-    # use node:lts
     - image: circleci/node:lts
+      auth:
+        username: $DOCKERHUB_USERNAME
+        password: $DOCKERHUB_PASSWORD
       environment:
         TZ: "Europe/London"
     working_directory: ~/repo
@@ -66,29 +101,17 @@ jobs:
     - run:
         name: install
         command: npm install
-    - run:
-        name: release image
-        command: |
-          docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
-          docker build -t wmfs/tymly-base .
-          npx semantic-release
 
 workflows:
   version: 2
   test_and_release:
     jobs:
-    - test:
-        filters:
-          branches:
-            ignore: master
-    - vulnerability:
-        filters:
-          branches:
-            only: master
+    - boot test
+    - vulnerability scan
     - release:
         requires:
-        - test
-        - vulnerability
+        - boot test
+        - vulnerability scan
         filters:
           branches:
             only: master
