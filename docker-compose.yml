@@ -21,6 +21,7 @@ services:
       - SHAREPOINT_URL=DISABLED
       - TYMLY_AUTH_SECRET=Shh!
       - TYMLY_AUTH_AUDIENCE="I am the audience!"
+      - TYMLY_LOCALSTORAGE_ROOTPATH=/tmp
     depends_on:
       db:
         condition: service_healthy
