@@ -80,8 +80,8 @@ jobs:
             )
             wget https://github.com/aquasecurity/trivy/releases/download/v${trivy_version}/trivy_${trivy_version}_Linux-64bit.tar.gz
             tar zxvf trivy_${trivy_version}_Linux-64bit.tar.gz
-            ./trivy --quiet --auto-refresh wmfs/tymly-base
-            ./trivy --exit-code 1 --severity CRITICAL --quiet --auto-refresh wmfs/tymly-base
+            ./trivy --quiet --ignore-unfixed --auto-refresh wmfs/tymly-base
+            ./trivy --exit-code 1 --severity CRITICAL --quiet --ignore-unfixed --auto-refresh wmfs/tymly-base
       - save_cache:
           key: vulnerability-db
           paths:
