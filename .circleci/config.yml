@@ -2,7 +2,7 @@ version: 2
 jobs:
   build base api:
     docker:
-      - image: circleci/node:lts
+      - image: cimg/node:lts
         auth:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
@@ -16,8 +16,8 @@ jobs:
       - run:
           name: Get certificate
           command: |
-            mkdir ./repo/certificate
-            wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O tymly.pem -P ./repo/certificate/
+            mkdir certificate
+            wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O tymly.pem -P ./certificate/
       - run:
           name: build image
           command: docker build -t wmfs/tymly-base .
@@ -30,7 +30,7 @@ jobs:
             - ./base-image.tar
   boot test:
     docker:
-      - image: circleci/node:lts
+      - image: cimg/node:lts
         auth:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
@@ -54,7 +54,7 @@ jobs:
             bash .circleci/tools/test
   vulnerability scan:
     docker:
-      - image: circleci/node:lts
+      - image: cimg/node:lts
         environment:
           TZ: "Europe/London"
     working_directory: ~/repo
@@ -88,7 +88,7 @@ jobs:
             - $HOME/.cache/trivy
   release:
     docker:
-    - image: circleci/node:lts
+    - image: cimg/node:lts
       auth:
         username: $DOCKERHUB_USERNAME
         password: $DOCKERHUB_PASSWORD
