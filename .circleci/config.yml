@@ -15,15 +15,13 @@ jobs:
           version: 19.03.12
       - run:
           name: Get Auth0 certificate
-          command: |
-            mkdir certificate
-            wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O ./certificate/tymly.pem
+          command: wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O ./certificate/tymly.pem
       - run:
           name: build image
-          command: docker build -t wmfs/tymly-base .
+          command: docker build --target base-test -t tymly-base .
       - run:
           name: Store Docker image
-          command: docker save -o base-image.tar wmfs/tymly-base
+          command: docker save -o base-image.tar tymly-base
       - persist_to_workspace:
           root: .
           paths:
@@ -45,8 +43,7 @@ jobs:
           version: 19.03.12
       - run:
           name: Load stored base image
-          command: |
-            docker load -i /tmp/workspace/base-image.tar
+          command: docker load -i /tmp/workspace/base-image.tar
       - run:
           name: Boot base image
           command: |
@@ -68,8 +65,7 @@ jobs:
           key: vulnerability-db
       - run:
           name: Load stored base image
-          command: |
-            docker load -i /tmp/workspace/base-image.tar
+          command: docker load -i /tmp/workspace/base-image.tar
       - run:
           name: Scan api and app images
           command: |
@@ -97,7 +93,13 @@ jobs:
     working_directory: ~/repo
     steps:
     - checkout
-    - setup_remote_docker
+    - attach_workspace:
+        at: /tmp/workspace
+    - setup_remote_docker:
+        version: 19.03.12
+    - run:
+        name: Load stored base image
+        command: docker load -i /tmp/workspace/base-image.tar
     - run:
         name: install
         command: npm install
