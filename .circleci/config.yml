@@ -15,7 +15,9 @@ jobs:
           version: 19.03.12
       - run:
           name: Get Auth0 certificate
-          command: wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O ./certificate/tymly.pem
+          command: |
+            mkdir certificate
+            wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O ./certificate/tymly.pem
       - run:
           name: build image
           command: docker build --target base-test -t tymly-base .
