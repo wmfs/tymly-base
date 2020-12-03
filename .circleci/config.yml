@@ -101,7 +101,7 @@ jobs:
           version: 19.03.12
       - run:
           name: Build tagged image
-          command: docker build wmfs/tymly-base .
+          command: docker build -t wmfs/tymly-base .
       - run:
           name: install
           command: npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/exec conventional-changelog-metahub
@@ -111,20 +111,30 @@ jobs:
             npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
             docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
             npx semantic-release
-
-
 workflows:
   version: 2
   test_and_release:
     jobs:
-    - build base api
+    - build base api:
+        context:
+          - docker-hub-creds
+          - build-env-vars
     - boot test:
+        context:
+          - docker-hub-creds
+          - build-env-vars
         requires:
           - build base api
     - vulnerability scan:
+        context:
+          - docker-hub-creds
+          - build-env-vars
         requires:
           - build base api
     - release:
+        context:
+          - docker-hub-creds
+          - build-env-vars
         requires:
           - boot test
           - vulnerability scan
