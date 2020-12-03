@@ -9,9 +9,12 @@ ENV TZ=Europe/London
 USER node
 CMD ["node", "./node_modules/@wmfs/tymly-runner/lib/index.js"]
 
-FROM wmfs/node:lts-alpine
+FROM wmfs/node:lts-alpine as base-release
 LABEL maintainer="West Midlands Fire Service <tymly@wmfs.net>"
-COPY --from=base-test . .
-RUN rm -rf ./certificate/
+COPY package.json ./
+COPY ./config/. ./config/.
+RUN apk add --no-cache tzdata && \
+    npm install --production
+ENV TZ=Europe/London
 USER node
 CMD ["node", "./node_modules/@wmfs/tymly-runner/lib/index.js"]

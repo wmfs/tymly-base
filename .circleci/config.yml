@@ -101,7 +101,8 @@ jobs:
           version: 19.03.12
       - run:
           name: Build tagged image
-          command: docker build -t wmfs/tymly-base .
+          command: docker build --target base-release -t wmfs/tymly-base .
+
       - run:
           name: install
           command: npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/exec conventional-changelog-metahub
