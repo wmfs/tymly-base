@@ -1,3 +1,39 @@
+# [1.292.0](https://github.com/wmfs/tymly-base/compare/v1.291.0...v1.292.0) (2020-12-03)
+
+
+### ✨ Features
+
+* update dependencies ([4eae50a](https://github.com/wmfs/tymly-base/commit/4eae50a0baa73dca624719af85d93182917d7c38))
+
+
+### 🛠 Builds
+
+* **deps:** add [@wmfs](https://github.com/wmfs)/systems-blueprint ([cd6e73c](https://github.com/wmfs/tymly-base/commit/cd6e73cae10421679cec4e65814f00c0ef654922))
+* **deps:** add [@wmfs](https://github.com/wmfs)/tymly-gov-uk-notify-plugin and tymly-os-places-plugin ([1daf2f7](https://github.com/wmfs/tymly-base/commit/1daf2f7a5a55c634b4814953253a6726fa88ce89))
+
+
+### 📦 Code Refactoring
+
+* add server config ([97e06fa](https://github.com/wmfs/tymly-base/commit/97e06fae18f5a31feab179b181b0e943aa421adf))
+* Trivy ignore unfixed vulnerabilities [skip ci] ([933db4d](https://github.com/wmfs/tymly-base/commit/933db4d79a3184cf5b7ebfcdfd22e7e13635843b))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add contexts ([dd7d339](https://github.com/wmfs/tymly-base/commit/dd7d33934c8f037e31f8708f044a5bf596d6c5d5))
+* **circle:** mkdir certificate ([9d71f8a](https://github.com/wmfs/tymly-base/commit/9d71f8a8070271fc0d783c7783081cd310c7b5bb))
+* **circle:** rebuild fresh image without cert for release ([8cad49f](https://github.com/wmfs/tymly-base/commit/8cad49f7f2515f9ed41c7a31945f31b12ecd7275))
+* **circle:** refactor image to scan with Trivy ([4e1c5fa](https://github.com/wmfs/tymly-base/commit/4e1c5fa18b01c79941a773f440ef71efdbc39e54))
+* **circle:** target specific build in Dockerfile ([6ca9532](https://github.com/wmfs/tymly-base/commit/6ca95321d96975d73d1ccc6d13ee29c168e85e85))
+* **circle:** update config.yml ([f990247](https://github.com/wmfs/tymly-base/commit/f990247cd16171d78414cab8d63ce637922869c1))
+* **circle:** update config.yml ([8c29931](https://github.com/wmfs/tymly-base/commit/8c29931486805732784f04f8f4ac3e00922344cd))
+* **circle:** update lots of config ([547d82d](https://github.com/wmfs/tymly-base/commit/547d82d5bc0eb2b63e837dfcd6c0a3280d552ef4))
+* **circle:** update wget of certificate ([2311bf3](https://github.com/wmfs/tymly-base/commit/2311bf3d3f0bdc7c2eff9bbd29155fd64b20cbbe))
+* **circle:** update workflow ([f4f3cbf](https://github.com/wmfs/tymly-base/commit/f4f3cbf825d102e1a25594ea45baf471df10a649))
+* **circle:** use build kit for Docker build ([189054c](https://github.com/wmfs/tymly-base/commit/189054c9f3be3f31c05cdc8a3e12da7049bdfa0a))
+* **circle:** use multistage Dockerfile ([6b7c894](https://github.com/wmfs/tymly-base/commit/6b7c894f9ef067e8e92f889e6da84ba0c339c5fc))
+* update docker-compose for test ([5c965fd](https://github.com/wmfs/tymly-base/commit/5c965fd8e1b0771284aaa987bd419f9e4e6082f6))
+
 # [1.291.0](https://github.com/wmfs/tymly-base/compare/v1.290.0...v1.291.0) (2019-10-30)
 
 
