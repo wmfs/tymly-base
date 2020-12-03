@@ -86,25 +86,32 @@ jobs:
             - $HOME/.cache/trivy
   release:
     docker:
-    - image: cimg/node:lts
-      auth:
-        username: $DOCKERHUB_USERNAME
-        password: $DOCKERHUB_PASSWORD
-      environment:
-        TZ: "Europe/London"
+      - image: cimg/node:lts
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
+        environment:
+          TZ: "Europe/London"
     working_directory: ~/repo
     steps:
-    - checkout
-    - attach_workspace:
-        at: /tmp/workspace
-    - setup_remote_docker:
-        version: 19.03.12
-    - run:
-        name: Load stored base image
-        command: docker load -i /tmp/workspace/base-image.tar
-    - run:
-        name: install
-        command: npm install
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - setup_remote_docker:
+          version: 19.03.12
+      - run:
+          name: Build tagged image
+          command: docker build wmfs/tymly-base .
+      - run:
+          name: install
+          command: npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/exec conventional-changelog-metahub
+      - run:
+          name: Deploy images to Docker hub
+          command: |
+            npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+            docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+            npx semantic-release
+
 
 workflows:
   version: 2
