@@ -19,8 +19,8 @@ jobs:
             mkdir certificate
             wget https://$AUTH0_DOMAIN.eu.auth0.com/pem -O ./certificate/tymly.pem
       - run:
-          name: build image
-          command: docker build --target base-test -t tymly-base .
+          name: Build base test image
+          command: DOCKER_BUILDKIT=1 docker build --target base-test -t tymly-base .
       - run:
           name: Store Docker image
           command: docker save -o base-image.tar tymly-base
@@ -47,7 +47,7 @@ jobs:
           name: Load stored base image
           command: docker load -i /tmp/workspace/base-image.tar
       - run:
-          name: Boot base image
+          name: Boot base test image
           command: |
             docker pull postgres:9.6.12-alpine
             bash .circleci/tools/test
@@ -100,9 +100,8 @@ jobs:
       - setup_remote_docker:
           version: 19.03.12
       - run:
-          name: Build tagged image
-          command: docker build --target base-release -t wmfs/tymly-base .
-
+          name: Build tagged base image
+          command: DOCKER_BUILDKIT=1 docker build --target=base-release -t wmfs/tymly-base .
       - run:
           name: install
           command: npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/exec conventional-changelog-metahub
