@@ -1,3 +1,11 @@
+# [1.293.0](https://github.com/wmfs/tymly-base/compare/v1.292.0...v1.293.0) (2020-12-03)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-auth-auth0-plugin from 1.23.0 to 1.23.1 ([df49d53](https://github.com/wmfs/tymly-base/commit/df49d53d50f333397b4ee090f5b6c7ea97f5bca3))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin from 1.18.0 to 1.18.1 ([e5aa557](https://github.com/wmfs/tymly-base/commit/e5aa5578a8b8d08f7d15b17221ee848656b64f2e))
+
 # [1.292.0](https://github.com/wmfs/tymly-base/compare/v1.291.0...v1.292.0) (2020-12-03)
 
 
