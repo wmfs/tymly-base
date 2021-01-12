@@ -27,7 +27,7 @@
     "@wmfs/tymly-localfilestorage-plugin": "1.1.2",
     "@wmfs/tymly-pg-plugin": "1.233.0",
     "@wmfs/tymly-rbac-plugin": "1.18.1",
-    "@wmfs/tymly-rest-client-plugin": "1.8.0",
+    "@wmfs/tymly-rest-client-plugin": "1.9.0",
     "@wmfs/tymly-runner": "2.151.0",
     "@wmfs/tymly-solr-plugin": "2.16.0",
     "@wmfs/systems-blueprint": "1.12.0",
