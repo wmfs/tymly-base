@@ -1,3 +1,12 @@
+# [1.298.0](https://github.com/wmfs/tymly-base/compare/v1.297.0...v1.298.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/systems-blueprint from 1.12.0 to 1.13.0 ([ec0e157](https://github.com/wmfs/tymly-base/commit/ec0e157db2b8c7bfd38226b3af50c1fca1c68e8e))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.233.0 to 1.235.0 ([8133301](https://github.com/wmfs/tymly-base/commit/8133301bbcef0f0d73e5139e7396979ac2b3870a))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-runner from 2.151.0 to 2.152.0 ([e83e2ea](https://github.com/wmfs/tymly-base/commit/e83e2eae03f59a95845749b702f58a8f286fe2f4))
+
 # [1.297.0](https://github.com/wmfs/tymly-base/compare/v1.296.0...v1.297.0) (2021-01-12)
 
 
