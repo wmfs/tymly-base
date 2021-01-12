@@ -1,3 +1,15 @@
+# [1.297.0](https://github.com/wmfs/tymly-base/compare/v1.296.0...v1.297.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-auth-auth0-plugin from 1.23.1 to 1.25.0 ([4f06fd7](https://github.com/wmfs/tymly-base/commit/4f06fd71a103d226e81414a954ac6e0c83ab3186))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-etl-plugin from 1.144.0 to 1.146.0 ([71a8cd4](https://github.com/wmfs/tymly-base/commit/71a8cd4cb8719ceb65ddc40ae2f3aa86eca1d185))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin from 1.12.0 to 1.19.0 ([bdf6ec0](https://github.com/wmfs/tymly-base/commit/bdf6ec097e90d9cc76d92878d41183d2df63e074))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-gov-uk-notify-plugin from 1.16.0 to 1.17.0 ([dea2eed](https://github.com/wmfs/tymly-base/commit/dea2eed7f269fa54ad3f239114d9e00c561781e2))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-os-places-plugin from 1.3.1 to 1.4.0 ([52930a5](https://github.com/wmfs/tymly-base/commit/52930a57d9315c95100c5abaab6c31ddc5a683fa))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin from 1.8.0 to 1.9.0 ([78340fe](https://github.com/wmfs/tymly-base/commit/78340fe068e8555415bed299ab25a01ba1bec2a8))
+
 # [1.296.0](https://github.com/wmfs/tymly-base/compare/v1.295.0...v1.296.0) (2021-01-12)
 
 
