@@ -1,3 +1,11 @@
+# [1.305.0](https://github.com/wmfs/tymly-base/compare/v1.304.0...v1.305.0) (2021-01-15)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin from 1.22.0 to 1.23.0 ([1e2113a](https://github.com/wmfs/tymly-base/commit/1e2113a0f527cb6cf8136abce4073a98aaf603c4))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([7d90a58](https://github.com/wmfs/tymly-base/commit/7d90a5850ebdfef3b569602cafc18522be1d9598))
+
 # [1.304.0](https://github.com/wmfs/tymly-base/compare/v1.303.0...v1.304.0) (2021-01-12)
 
 
