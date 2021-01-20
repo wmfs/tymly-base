@@ -1,3 +1,11 @@
+# [1.309.0](https://github.com/wmfs/tymly-base/compare/v1.308.0...v1.309.0) (2021-01-20)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-etl-plugin from 1.149.0 to 1.150.0 ([3bcdbc2](https://github.com/wmfs/tymly-base/commit/3bcdbc23e54c4899a97c43b21cd5404bcae170d7))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-runner from 2.154.0 to 2.155.0 ([058b5c8](https://github.com/wmfs/tymly-base/commit/058b5c8a7c0e02a559d78d23bac974e7414d0206))
+
 # [1.308.0](https://github.com/wmfs/tymly-base/compare/v1.307.0...v1.308.0) (2021-01-20)
 
 
