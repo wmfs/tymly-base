@@ -1,3 +1,10 @@
+# [1.312.0](https://github.com/wmfs/tymly-base/compare/v1.311.0...v1.312.0) (2021-01-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-os-places-plugin from 1.4.0 to 1.4.1 ([f633535](https://github.com/wmfs/tymly-base/commit/f633535c385a518ca4a26a7abb89155055807238))
+
 # [1.311.0](https://github.com/wmfs/tymly-base/compare/v1.310.0...v1.311.0) (2021-01-26)
 
 
