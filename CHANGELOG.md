@@ -1,3 +1,12 @@
+# [1.319.0](https://github.com/wmfs/tymly-base/compare/v1.318.0...v1.319.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-crypto-plugin from 1.8.0 to 1.9.0 ([07e8059](https://github.com/wmfs/tymly-base/commit/07e80590a480c12d95709d48511c73f8a8d6edd7))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin from 1.27.0 to 1.28.0 ([a1e42c4](https://github.com/wmfs/tymly-base/commit/a1e42c49364038be6d6e678ebbe48c9b6b64478c))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.241.0 to 1.242.0 ([a4fd425](https://github.com/wmfs/tymly-base/commit/a4fd4254c69586eae9d0981661b2ca87067efb5d))
+
 # [1.318.0](https://github.com/wmfs/tymly-base/compare/v1.317.0...v1.318.0) (2021-02-17)
 
 
