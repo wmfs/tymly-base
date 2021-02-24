@@ -1,3 +1,10 @@
+# [1.321.0](https://github.com/wmfs/tymly-base/compare/v1.320.0...v1.321.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.20.0 to 2.21.0 ([03f6b0f](https://github.com/wmfs/tymly-base/commit/03f6b0f9c87ca8329c7392e9010ae984c9e7f982))
+
 # [1.320.0](https://github.com/wmfs/tymly-base/compare/v1.319.0...v1.320.0) (2021-02-24)
 
 
