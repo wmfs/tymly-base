@@ -1,3 +1,11 @@
+# [1.323.0](https://github.com/wmfs/tymly-base/compare/v1.322.0...v1.323.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin from 1.26.0 to 1.27.0 ([e140753](https://github.com/wmfs/tymly-base/commit/e1407533dfb7779fbd73011c8ec12d6cbc423cd2))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.242.0 to 1.244.0 ([23c3835](https://github.com/wmfs/tymly-base/commit/23c3835c07ff83dcf32c746b7587183bfc6b79c7))
+
 # [1.322.0](https://github.com/wmfs/tymly-base/compare/v1.321.0...v1.322.0) (2021-02-24)
 
 
