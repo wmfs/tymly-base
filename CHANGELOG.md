@@ -1,3 +1,11 @@
+# [1.326.0](https://github.com/wmfs/tymly-base/compare/v1.325.0...v1.326.0) (2021-03-03)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin from 1.27.0 to 1.27.1 ([ad29440](https://github.com/wmfs/tymly-base/commit/ad294409d033a0e1958bc48943dd65c5b2016e5b))
+* **deps-dev:** bump semantic-release from 17.3.9 to 17.4.0 ([61ae4ac](https://github.com/wmfs/tymly-base/commit/61ae4acae6e104da557b4f1040caf0f657aaa024))
+
 # [1.325.0](https://github.com/wmfs/tymly-base/compare/v1.324.0...v1.325.0) (2021-02-24)
 
 
