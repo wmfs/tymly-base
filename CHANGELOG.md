@@ -1,3 +1,10 @@
+# [1.329.0](https://github.com/wmfs/tymly-base/compare/v1.328.0...v1.329.0) (2021-03-05)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-crypto-plugin from 1.9.0 to 1.10.0 ([720ccff](https://github.com/wmfs/tymly-base/commit/720ccff4f37808b1c00981d1971f7568cca21aa2))
+
 # [1.328.0](https://github.com/wmfs/tymly-base/compare/v1.327.0...v1.328.0) (2021-03-05)
 
 
