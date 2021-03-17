@@ -1,3 +1,10 @@
+# [1.332.0](https://github.com/wmfs/tymly-base/compare/v1.331.0...v1.332.0) (2021-03-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-auth-auth0-plugin from 1.25.0 to 1.26.0 ([f6ffa2c](https://github.com/wmfs/tymly-base/commit/f6ffa2ca7acda368010daff5afdba07f0787161d))
+
 # [1.331.0](https://github.com/wmfs/tymly-base/compare/v1.330.0...v1.331.0) (2021-03-17)
 
 
