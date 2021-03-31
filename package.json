@@ -23,7 +23,7 @@
     "@wmfs/tymly-cloudstorage-plugin": "1.4.0",
     "@wmfs/tymly-crypto-plugin": "1.10.0",
     "@wmfs/tymly-etl-plugin": "1.151.0",
-    "@wmfs/tymly-fastify-plugin": "1.35.0",
+    "@wmfs/tymly-fastify-plugin": "1.36.0",
     "@wmfs/tymly-localfilestorage-plugin": "1.1.2",
     "@wmfs/tymly-pg-plugin": "1.246.0",
     "@wmfs/tymly-rbac-plugin": "1.18.1",
