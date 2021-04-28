@@ -1,3 +1,10 @@
+# [1.341.0](https://github.com/wmfs/tymly-base/compare/v1.340.0...v1.341.0) (2021-04-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-pg-plugin from 1.246.0 to 1.246.1 ([5117393](https://github.com/wmfs/tymly-base/commit/5117393fcfe8a8492b530a43e85c91f59dc58219))
+
 # [1.340.0](https://github.com/wmfs/tymly-base/compare/v1.339.0...v1.340.0) (2021-04-20)
 
 
