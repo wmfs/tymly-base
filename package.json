@@ -21,7 +21,7 @@
     "@wmfs/tymly-auth-auth0-plugin": "1.26.0",
     "@wmfs/tymly-cardscript-plugin": "1.27.2",
     "@wmfs/tymly-cloudstorage-plugin": "1.4.0",
-    "@wmfs/tymly-crypto-plugin": "1.10.0",
+    "@wmfs/tymly-crypto-plugin": "1.11.0",
     "@wmfs/tymly-etl-plugin": "1.151.0",
     "@wmfs/tymly-fastify-plugin": "1.37.0",
     "@wmfs/tymly-localfilestorage-plugin": "1.1.2",
