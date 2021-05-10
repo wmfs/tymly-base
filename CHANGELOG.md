@@ -1,3 +1,10 @@
+# [1.344.0](https://github.com/wmfs/tymly-base/compare/v1.343.0...v1.344.0) (2021-05-10)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-rest-client-plugin from 1.10.0 to 1.11.0 ([16ce41e](https://github.com/wmfs/tymly-base/commit/16ce41e30919598d0455bfc548f6ddeaefba7c32))
+
 # [1.343.0](https://github.com/wmfs/tymly-base/compare/v1.342.0...v1.343.0) (2021-05-10)
 
 
