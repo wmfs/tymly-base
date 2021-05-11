@@ -22,7 +22,7 @@
     "@wmfs/tymly-cardscript-plugin": "1.30.0",
     "@wmfs/tymly-cloudstorage-plugin": "1.4.0",
     "@wmfs/tymly-crypto-plugin": "1.11.0",
-    "@wmfs/tymly-etl-plugin": "1.151.0",
+    "@wmfs/tymly-etl-plugin": "1.153.0",
     "@wmfs/tymly-fastify-plugin": "1.37.0",
     "@wmfs/tymly-localfilestorage-plugin": "1.1.2",
     "@wmfs/tymly-pg-plugin": "1.246.1",
