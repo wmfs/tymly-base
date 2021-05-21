@@ -1,3 +1,10 @@
+# [1.350.0](https://github.com/wmfs/tymly-base/compare/v1.349.0...v1.350.0) (2021-05-21)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin from 1.37.0 to 1.38.0 ([0fe6341](https://github.com/wmfs/tymly-base/commit/0fe63412e15525025fbe2044a3f08cd7a2c654d3))
+
 # [1.349.0](https://github.com/wmfs/tymly-base/compare/v1.348.0...v1.349.0) (2021-05-20)
 
 
