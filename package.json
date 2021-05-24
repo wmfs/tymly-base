@@ -30,7 +30,7 @@
     "@wmfs/tymly-rest-client-plugin": "1.13.0",
     "@wmfs/tymly-runner": "2.170.0",
     "@wmfs/tymly-solr-plugin": "2.24.0",
-    "@wmfs/systems-blueprint": "1.14.0",
+    "@wmfs/systems-blueprint": "1.15.0",
     "@wmfs/tymly-gov-uk-notify-plugin": "1.17.0",
     "@wmfs/tymly-os-places-plugin": "1.4.1"
   },
