@@ -1,3 +1,10 @@
+# [1.354.0](https://github.com/wmfs/tymly-base/compare/v1.353.0...v1.354.0) (2021-05-25)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/systems-blueprint from 1.16.0 to 1.17.1 ([36457ab](https://github.com/wmfs/tymly-base/commit/36457ab7cd5f21069d8f7a1384b7c02320e3afd7))
+
 # [1.353.0](https://github.com/wmfs/tymly-base/compare/v1.352.0...v1.353.0) (2021-05-24)
 
 
