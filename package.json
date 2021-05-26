@@ -28,7 +28,7 @@
     "@wmfs/tymly-pg-plugin": "1.252.0",
     "@wmfs/tymly-rbac-plugin": "1.18.1",
     "@wmfs/tymly-rest-client-plugin": "1.13.0",
-    "@wmfs/tymly-runner": "2.170.0",
+    "@wmfs/tymly-runner": "2.171.0",
     "@wmfs/tymly-solr-plugin": "2.24.0",
     "@wmfs/systems-blueprint": "1.20.1",
     "@wmfs/tymly-gov-uk-notify-plugin": "1.17.0",
