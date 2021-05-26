@@ -25,7 +25,7 @@
     "@wmfs/tymly-etl-plugin": "1.153.0",
     "@wmfs/tymly-fastify-plugin": "1.42.0",
     "@wmfs/tymly-localfilestorage-plugin": "1.1.2",
-    "@wmfs/tymly-pg-plugin": "1.250.0",
+    "@wmfs/tymly-pg-plugin": "1.251.0",
     "@wmfs/tymly-rbac-plugin": "1.18.1",
     "@wmfs/tymly-rest-client-plugin": "1.13.0",
     "@wmfs/tymly-runner": "2.170.0",
