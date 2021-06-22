@@ -1,3 +1,11 @@
+# [1.368.0](https://github.com/wmfs/tymly-base/compare/v1.367.0...v1.368.0) (2021-06-22)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/tymly-os-places-plugin from 1.4.1 to 1.5.0 ([97d8d54](https://github.com/wmfs/tymly-base/commit/97d8d54453b5108da498e7eff46f8722d4c71c86))
+* **deps-dev:** bump semantic-release from 17.4.3 to 17.4.4 ([3e4bed6](https://github.com/wmfs/tymly-base/commit/3e4bed63ecee2605b2389c309e84a84c82b4c765))
+
 # [1.367.0](https://github.com/wmfs/tymly-base/compare/v1.366.0...v1.367.0) (2021-06-09)
 
 
