@@ -32,7 +32,7 @@
     "@wmfs/tymly-solr-plugin": "2.24.1",
     "@wmfs/systems-blueprint": "1.21.0",
     "@wmfs/tymly-gov-uk-notify-plugin": "1.17.0",
-    "@wmfs/tymly-os-places-plugin": "1.5.0"
+    "@wmfs/tymly-os-places-plugin": "1.6.0"
   },
   "devDependencies": {
     "conventional-changelog-metahub": "4.0.1",
