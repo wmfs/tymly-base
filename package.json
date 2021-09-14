@@ -18,27 +18,27 @@
   "license": "MIT",
   "author": "West Midlands Fire Service",
   "dependencies": {
-    "@wmfs/tymly-auth-auth0-plugin": "1.26.0",
-    "@wmfs/tymly-cardscript-plugin": "1.31.0",
+    "@wmfs/tymly-auth-auth0-plugin": "1.28.0",
+    "@wmfs/tymly-cardscript-plugin": "1.32.0",
     "@wmfs/tymly-cloudstorage-plugin": "1.4.0",
     "@wmfs/tymly-crypto-plugin": "1.11.0",
     "@wmfs/tymly-etl-plugin": "1.155.0",
-    "@wmfs/tymly-fastify-plugin": "1.43.0",
+    "@wmfs/tymly-fastify-plugin": "1.49.0",
     "@wmfs/tymly-localfilestorage-plugin": "1.1.2",
-    "@wmfs/tymly-pg-plugin": "1.253.0",
+    "@wmfs/tymly-pg-plugin": "1.256.0",
     "@wmfs/tymly-rbac-plugin": "1.18.1",
-    "@wmfs/tymly-rest-client-plugin": "1.13.0",
-    "@wmfs/tymly-runner": "2.171.0",
-    "@wmfs/tymly-solr-plugin": "2.25.0",
-    "@wmfs/systems-blueprint": "1.23.0",
+    "@wmfs/tymly-rest-client-plugin": "1.14.0",
+    "@wmfs/tymly-runner": "2.174.0",
+    "@wmfs/tymly-solr-plugin": "2.26.0",
+    "@wmfs/systems-blueprint": "1.24.1",
     "@wmfs/tymly-gov-uk-notify-plugin": "1.17.0",
-    "@wmfs/tymly-os-places-plugin": "1.6.0"
+    "@wmfs/tymly-os-places-plugin": "1.7.0"
   },
   "devDependencies": {
     "conventional-changelog-metahub": "4.0.1",
-    "semantic-release": "17.4.4",
+    "semantic-release": "17.4.7",
     "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
+    "@semantic-release/git": "9.0.1",
     "@semantic-release/exec": "5.0.0"
   },
   "scripts": {
