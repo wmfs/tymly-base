@@ -12,7 +12,7 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker:
-          version: 19.03.12
+          version: 20.10.11
       - run:
           name: Get Auth0 certificate
           command: |
@@ -42,7 +42,7 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - setup_remote_docker:
-          version: 19.03.12
+          version: 20.10.11
       - run:
           name: Load stored base image
           command: docker load -i /tmp/workspace/base-image.tar
@@ -62,7 +62,7 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - setup_remote_docker:
-          version: 19.03.12
+          version: 20.10.11
       - restore_cache:
           key: vulnerability-db
       - run:
@@ -98,7 +98,7 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - setup_remote_docker:
-          version: 19.03.12
+          version: 20.10.11
       - run:
           name: Build tagged base image
           command: DOCKER_BUILDKIT=1 docker build --target=base-release -t wmfs/tymly-base .
